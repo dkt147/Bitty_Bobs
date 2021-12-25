@@ -8,20 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>NFT Portfolio Template</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    
+    <?php include 'head.php' ?>
 
   </head>
 
@@ -41,33 +29,7 @@
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown fixed" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="assets/images/logo.png">
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="index.html">Home</a></li>
-              <li class="scroll-to-section"><a href="services.html" class="active">Services</a></li>
-              <li class="scroll-to-section"><a href="about.html">About</a></li>
-              <li class="scroll-to-section"><a href="portfolio.html">Portfolio</a></li>
-              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="contact.html">Contact Us Now</a></div></li> 
-            </ul>        
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php include 'header.php'?>
   <!-- ***** Header Area End ***** -->
 
   <div class="bread-banner" id="top">
@@ -87,212 +49,14 @@
   </div>
 
   
-  <div id="services" class="our-services section">
-    <div class="services-right-dec">
-      <img src="assets/images/services-right-dec.png" alt="">
-    </div>
-    <div class="container">
-      <div class="services-left-dec">
-        <img src="assets/images/services-left-dec.png" alt="">
-      </div>
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading">
-            <h2>We <em>Provide</em> The Best Service With <span>Our Tools</span></h2>
-            <span>Our Services</span>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-carousel owl-services">
-            <div class="item">
-              <h4>Learn More about our Guidelines</h4>
-              <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Develop The Best Assets for Digital Business</h4>
-              <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Create Creative NFT Digital Assets</h4>
-              <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Discover &amp; Explore our Top NFT Assets</h4>
-              <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Optimizing your NFT Marketplace websites</h4>
-              <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Best Graphic Designs In The Market</h4>
-              <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Best Content Ideas for your pages</h4>
-              <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="item">
-              <h4>Optimizing Speed for your web pages</h4>
-              <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <?php include  'service-section.php' ?>
 
-  <div id="pricing" class="pricing-tables">
-    <div class="tables-left-dec">
-      <img src="assets/images/tables-left-dec.png" alt="">
-    </div>
-    <div class="tables-right-dec">
-      <img src="assets/images/tables-right-dec.png" alt="">
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading">
-            <h2>Select a suitable <em>plan</em> for your next <span>projects</span></h2>
-            <span>Our Plans</span>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="item first-item">
-            <h4>Starter Plan</h4>
-            <em>$160/mo</em>
-            <span>$140</span>
-            <ul>
-              <li>10 Projects</li>
-              <li>100 GB space</li>
-              <li>20 SEO checkups</li>
-              <li>Basic Support</li>
-            </ul>
-            <div class="main-blue-button-hover">
-              <a href="#">Get Started</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="item second-item">
-            <h4>Standard Plan</h4>
-            <em>$240/mo</em>
-            <span>$200</span>
-            <ul>
-              <li>20 Projects</li>
-              <li>200 GB space</li>
-              <li>50 SEO checkups</li>
-              <li>Pro Support</li>
-            </ul>
-            <div class="main-blue-button-hover">
-              <a href="#">Get it Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="item third-item">
-            <h4>Advanced Plan</h4>
-            <em>$360/mo</em>
-            <span>$280</span>
-            <ul>
-              <li>30 Projects</li>
-              <li>300 GB space</li>
-              <li>100 SEO checkups</li>
-              <li>Best Support</li>
-            </ul>
-            <div class="main-blue-button-hover">
-              <a href="#">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <?php include 'plan.php' ?>
 
   <div class="footer-dec">
     <img src="assets/images/footer-dec.png" alt="">
   </div>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="about footer-item">
-            <div class="logo">
-              <a href="#"><img src="assets/images/logo.png" alt="Onix Digital TemplateMo"></a>
-            </div>
-            <a href="#">info@company.com</a>
-            <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="services footer-item">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="about.html">NFT Development</a></li>
-              <li><a href="about.html">Business Growth</a></li>
-              <li><a href="about.html">Digital Managment</a></li>
-              <li><a href="about.html">Assets Optimization</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="community footer-item">
-            <h4>Community</h4>
-            <ul>
-              <li><a href="services.html">Digital Services</a></li>
-              <li><a href="services.html">NFT Ideas</a></li>
-              <li><a href="services.html">Assets Checkup</a></li>
-              <li><a href="services.html">NFT Optimization</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="subscribe-newsletters footer-item">
-            <h4>Subscribe Newsletters</h4>
-            <p>Get our latest news and ideas to your Direct inbox</p>
-            <form action="#" method="get">
-              <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
-            </form>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="copyright">
-            <p>Copyright © 2021. All Rights Reserved.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-  <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/custom.js"></script>
-
+<?php include 'footer.php' ?>
   <script>
   // Acc
     $(document).on("click", ".naccs .menu div", function() {
