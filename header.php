@@ -4,17 +4,17 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <img src="assets/images/logo.png">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="services.html">Services</a></li>
-              <li class="scroll-to-section"><a href="about.html">About</a></li>
-              <li class="scroll-to-section"><a href="portfolio.html">Portfolio</a></li>
-              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="contact.html">Contact Us Now</a></div></li> 
+              <li class="scroll-to-section"><a href="index.php" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="services.php">Services</a></li>
+              <li class="scroll-to-section"><a href="about.php">About</a></li>
+              <li class="scroll-to-section"><a href="portfolio.php">Portfolio</a></li>
+              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="contact.php">Contact Us Now</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
