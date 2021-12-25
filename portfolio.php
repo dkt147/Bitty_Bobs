@@ -41,23 +41,23 @@
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown fixed" data-wow-duration="0.75s" data-wow-delay="0s">
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <img src="assets/images/logo.png">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="index.html">Home</a></li>
-              <li class="scroll-to-section"><a href="services.html">Services</a></li>
-              <li class="scroll-to-section"><a href="about.html">About</a></li>
-              <li class="scroll-to-section"><a href="portfolio.html" class="active">Portfolio</a></li>
-              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="contact.html">Contact Us Now</a></div></li> 
+              <li class="scroll-to-section"><a href="index.php" >Home</a></li>
+              <li class="scroll-to-section"><a href="services.php">Services</a></li>
+              <li class="scroll-to-section"><a href="about.php">About</a></li>
+              <li class="scroll-to-section"><a href="portfolio.php" class="active">Portfolio</a></li>
+              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="contact.php">Contact Us Now</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
@@ -110,7 +110,7 @@
                 <img src="assets/images/portfolio-01.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>First Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>First Project</h4></a>
                     <span>Plot Listing</span>
                   </div>
                 </div>
@@ -121,7 +121,7 @@
                 <img src="assets/images/portfolio-02.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Project Two</h4></a>
+                    <a href="portfolio-detail.php"><h4>Project Two</h4></a>
                     <span>Crypto Art</span>
                   </div>
                 </div>
@@ -132,7 +132,7 @@
                 <img src="assets/images/portfolio-03.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Third Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>Third Project</h4></a>
                     <span>Space Dynamic</span>
                   </div>
                 </div>
@@ -143,7 +143,7 @@
                 <img src="assets/images/portfolio-04.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Project Four</h4></a>
+                    <a href="portfolio-detail.php"><h4>Project Four</h4></a>
                     <span>Digital Waves</span>
                   </div>
                 </div>
@@ -154,7 +154,7 @@
                 <img src="assets/images/portfolio-01.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Fifth Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>Fifth Project</h4></a>
                     <span>Motion Assets</span>
                   </div>
                 </div>
@@ -165,7 +165,7 @@
                 <img src="assets/images/portfolio-02.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Sixth Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>Sixth Project</h4></a>
                     <span>DownTown City</span>
                   </div>
                 </div>
@@ -176,7 +176,7 @@
                 <img src="assets/images/portfolio-03.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>7th Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>7th Project</h4></a>
                     <span>Details Matters</span>
                   </div>
                 </div>
@@ -187,7 +187,7 @@
                 <img src="assets/images/portfolio-04.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>8th Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>8th Project</h4></a>
                     <span>Creative Scene</span>
                   </div>
                 </div>
@@ -198,7 +198,7 @@
                 <img src="assets/images/portfolio-01.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>9th Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>9th Project</h4></a>
                     <span>SEO &amp; Marketing</span>
                   </div>
                 </div>
@@ -209,7 +209,7 @@
                 <img src="assets/images/portfolio-02.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Project Ten</h4></a>
+                    <a href="portfolio-detail.php"><h4>Project Ten</h4></a>
                     <span>SEO &amp; Marketing</span>
                   </div>
                 </div>
@@ -220,7 +220,7 @@
                 <img src="assets/images/portfolio-03.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>Project Eleven</h4></a>
+                    <a href="portfolio-detail.php"><h4>Project Eleven</h4></a>
                     <span>SEO &amp; Marketing</span>
                   </div>
                 </div>
@@ -231,7 +231,7 @@
                 <img src="assets/images/portfolio-04.jpg" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.html"><h4>12th Project</h4></a>
+                    <a href="portfolio-detail.php"><h4>12th Project</h4></a>
                     <span>SEO &amp; Marketing</span>
                   </div>
                 </div>
@@ -358,10 +358,10 @@
           <div class="services footer-item">
             <h4>Services</h4>
             <ul>
-              <li><a href="about.html">NFT Development</a></li>
-              <li><a href="about.html">Business Growth</a></li>
-              <li><a href="about.html">Digital Managment</a></li>
-              <li><a href="about.html">Assets Optimization</a></li>
+              <li><a href="about.php">NFT Development</a></li>
+              <li><a href="about.php">Business Growth</a></li>
+              <li><a href="about.php">Digital Managment</a></li>
+              <li><a href="about.php">Assets Optimization</a></li>
             </ul>
           </div>
         </div>
@@ -369,10 +369,10 @@
           <div class="community footer-item">
             <h4>Community</h4>
             <ul>
-              <li><a href="services.html">Digital Services</a></li>
-              <li><a href="services.html">NFT Ideas</a></li>
-              <li><a href="services.html">Assets Checkup</a></li>
-              <li><a href="services.html">NFT Optimization</a></li>
+              <li><a href="services.php">Digital Services</a></li>
+              <li><a href="services.php">NFT Ideas</a></li>
+              <li><a href="services.php">Assets Checkup</a></li>
+              <li><a href="services.php">NFT Optimization</a></li>
             </ul>
           </div>
         </div>

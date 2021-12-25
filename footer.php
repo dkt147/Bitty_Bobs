@@ -21,10 +21,10 @@
           <div class="services footer-item">
             <h4>Services</h4>
             <ul>
-              <li><a href="about.html">NFT Development</a></li>
-              <li><a href="about.html">Business Growth</a></li>
-              <li><a href="about.html">Digital Managment</a></li>
-              <li><a href="about.html">Assets Optimization</a></li>
+              <li><a href="about.php">NFT Development</a></li>
+              <li><a href="about.php">Business Growth</a></li>
+              <li><a href="about.php">Digital Managment</a></li>
+              <li><a href="about.php">Assets Optimization</a></li>
             </ul>
           </div>
         </div>
@@ -32,10 +32,10 @@
           <div class="community footer-item">
             <h4>Community</h4>
             <ul>
-              <li><a href="services.html">Digital Services</a></li>
-              <li><a href="services.html">NFT Ideas</a></li>
-              <li><a href="services.html">Assets Checkup</a></li>
-              <li><a href="services.html">NFT Optimization</a></li>
+              <li><a href="services.php">Digital Services</a></li>
+              <li><a href="services.php">NFT Ideas</a></li>
+              <li><a href="services.php">Assets Checkup</a></li>
+              <li><a href="services.php">NFT Optimization</a></li>
             </ul>
           </div>
         </div>
