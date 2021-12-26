@@ -8,20 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>NFT Portfolio Template</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+<?php include 'head.php' ?>
 
   </head>
 
@@ -56,7 +43,7 @@
               <li class="scroll-to-section"><a href="index.php">Home</a></li>
               <li class="scroll-to-section"><a href="services.php">Services</a></li>
               <li class="scroll-to-section"><a href="about.php">About</a></li>
-              <li class="scroll-to-section"><a href="portfolio.php" class="active">Portfolio</a></li>
+              <li class="scroll-to-section"><a href="portfolio.php">Portfolio</a></li>
               <li class="scroll-to-section"><div class="main-red-button-hover"><a href="contact.php">Contact Us Now</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
@@ -70,7 +57,7 @@
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <div class="bread-banner" id="top">
+  <div class="bread-banner" id="top" style="background: url(images/p2.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -106,7 +93,7 @@
         <div class="col-lg-5">
             <div class="item v2">
               <div class="thumb">
-                <img src="assets/images/portfolio-01.jpg" alt="">
+                <img src="assets/images/p7.png" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <h4>First Project</h4>

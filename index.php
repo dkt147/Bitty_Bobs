@@ -29,8 +29,8 @@
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s" >
+    <div class="container" >
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
@@ -96,7 +96,7 @@
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="left-image">
-            <img src="assets/images/about-left-image.png" alt="Two Girls working together">
+            <img src="assets/images/p6.png" alt="Two Girls working together">
           </div>
         </div>
         <div class="col-lg-6">
@@ -152,6 +152,7 @@
 
   <?php include 'plan.php'?>
 
+  
   <div id="subscribe" class="subscribe">
     <div class="container">
       <div class="row">
@@ -160,9 +161,13 @@
             <div class="row">
               <div class="col-lg-10 offset-lg-1">
                 <h2>Enter Your Email to join Our Newsletter</h2>
-                <form id="subscribe" action="" method="get">
+                <form id="subscribe" action="_email.php" method="POST">
                   <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                  <button type="submit" id="form-submit" class="main-button ">Subscribe</button>
+                  <button type="submit" id="form-submit" class="main-button " name="subscribe">Subscribe</button>
+                  <!-- <input type="submit" id="form-submit" class="main-button " name="subscribe" value="Subscribe"/> -->
+
+
+
                 </form>
               </div>
             </div>

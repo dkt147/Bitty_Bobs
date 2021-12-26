@@ -1,0 +1,2 @@
+20SELECT * FROM books WHERE id=20my card.jpgmy card.jpgimage/my card.jpg<br />
+<b>Warning</b>:  readfile(image/my card.jpg): failed to open stream: No such file or directory in <b>C:\xamp1\htdocs\edu\edu\View\download.php</b> on line <b>30</b><br />

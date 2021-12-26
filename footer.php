@@ -43,15 +43,15 @@
           <div class="subscribe-newsletters footer-item">
             <h4>Subscribe Newsletters</h4>
             <p>Get our latest news and ideas to your Direct inbox</p>
-            <form action="#" method="get">
+            <form action="_email.php" method="POST">
               <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+              <button type="submit" id="form-submit" class="main-button " name="subscribe"><i class="fa fa-paper-plane-o"></i></button>
             </form>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright">
-            <p>Copyright © 2021. All Rights Reserved.</p>
+            <p>Copyright © ARBURST USA 2021. All Rights Reserved.</p>
           </div>
         </div>
       </div>

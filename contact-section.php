@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <form id="contact" action="" method="get">
+          <form id="contact" action="_contact.php" method="POST">
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
@@ -30,7 +30,7 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea ro name="website" id="Message" placeholder="Your Message" required=""></textarea>
+                  <textarea ro name="message" id="Message" placeholder="Your Message" required=""></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
