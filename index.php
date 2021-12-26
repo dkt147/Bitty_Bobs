@@ -90,119 +90,18 @@
 
 <?php include 'service-section.php'?>
 
-  <div id="about" class="about-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="left-image">
-            <img src="assets/images/p6.png" alt="Two Girls working together">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h2>Grow your Business Revenue with our <em>most Trending</em> <span>NFT Digital</span> Assets</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="fact-item">
-                  <div class="count-area-content">
-                    <div class="icon">
-                      <img src="assets/images/service-icon-01.png" alt="">
-                    </div>
-                    <div class="count-digit">2</div>
-                    <div class="count-title">NFT Projects</div>
-                    <p>Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="fact-item">
-                  <div class="count-area-content">
-                    <div class="icon">
-                      <img src="assets/images/service-icon-02.png" alt="">
-                    </div>
-                    <div class="count-digit">50+</div>
-                    <div class="count-title">Diigital Assets</div>
-                    <p>Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="fact-item">
-                  <div class="count-area-content">
-                    <div class="icon">
-                      <img src="assets/images/service-icon-03.png" alt="">
-                    </div>
-                    <div class="count-digit">2</div>
-                    <div class="count-title">Satisfied Clients</div>
-                    <p>Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<?php include 'assets.php'?>
 
  <?php include 'recent-project.php'?>
 
   <?php include 'plan.php'?>
 
   
-  <div id="subscribe" class="subscribe">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="inner-content">
-            <div class="row">
-              <div class="col-lg-10 offset-lg-1">
-                <h2>Enter Your Email to join Our Newsletter</h2>
-                <form id="subscribe" action="_email.php" method="POST">
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                  <button type="submit" id="form-submit" class="main-button " name="subscribe">Subscribe</button>
-                  <!-- <input type="submit" id="form-submit" class="main-button " name="subscribe" value="Subscribe"/> -->
-
-
-
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include 'newsletter.php'?>
 
 
   <?php include 'contact-section.php'?>
 
-  <div class="footer-dec">
-    <img src="assets/images/footer-dec.png" alt="">
-  </div>
 <?php include 'footer.php'?>
-
-
-  <script>
-  // Acc
-    $(document).on("click", ".naccs .menu div", function() {
-      var numberIndex = $(this).index();
-
-      if (!$(this).is("active")) {
-          $(".naccs .menu div").removeClass("active");
-          $(".naccs ul li").removeClass("active");
-
-          $(this).addClass("active");
-          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
-
-          var listItemHeight = $(".naccs ul")
-            .find("li:eq(" + numberIndex + ")")
-            .innerHeight();
-          $(".naccs ul").height(listItemHeight + "px");
-        }
-    });
-  </script>
 </body>
 </html>
