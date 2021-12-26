@@ -29,7 +29,7 @@
     <?php
 
     //Stablishing Connection..
-        $conn = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+        $conn = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
     
     //Checking if button is clicked or not...
         if (isset($_POST['createproduct'])) {
@@ -62,7 +62,7 @@
         if ($res == TRUE) {
             session_start();
             $_SESSION['msg'] = "Added Successfully";
-            header("Location: http://localhost/LAB/Views/product.php");
+            header("Location: product.php");
         } else {
 
         }
@@ -139,15 +139,15 @@
                                                     <option selected disabled>Select Category</option>
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `products_catagory`";
+                                                    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
+                                                    $query = "SELECT * FROM `catagory`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {
                                                         while ($row = mysqli_fetch_assoc($res)) {
 
                                                     ?>
-                                                            <option style="color: black;" value="<?php echo $row['cat_Id']; ?>"><?php echo $row['cat_Name']; ?></option>
+                                                            <option style="color: black;" value="<?php echo $row['id']; ?>"><?php echo $row['catagory']; ?></option>
                                                     <?php
                                                         }
                                                     }
