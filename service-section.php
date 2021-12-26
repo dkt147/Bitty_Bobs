@@ -20,42 +20,42 @@
             <div class="item">
               <h4>Learn More about our Guidelines</h4>
               <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Your success is our success. While our platform is really easy to use, feel free to contact us via the link at the bottom of the page if you need any help - We're super responsive to your queries!</p>
             </div>
             <div class="item">
               <h4>Develop The Best Assets for Digital Business</h4>
               <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Share memorabilia that your fans adore en masse to promote upcoming launches, releases, & events. Choose the right mode of Airdrop for your campaign  for your users.</p>
             </div>
             <div class="item">
               <h4>Create Creative NFT Digital Assets</h4>
               <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Whether it be Metamask, the go-to wallet for crypto veterans or Fortmatic that works with your phone/email.</p>
             </div>
             <div class="item">
               <h4>Discover &amp; Explore our Top NFT Assets</h4>
               <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Your success is our success. While our platform is really easy to use, feel free to contact us via the link at the bottom of the page if you need any help - We're super responsive to your queries!</p>
             </div>
             <div class="item">
               <h4>Optimizing your NFT Marketplace websites</h4>
               <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Share memorabilia that your fans adore en masse to promote upcoming launches, releases, & events. Choose the right mode of Airdrop for your campaign  for your users.</p>
             </div>
             <div class="item">
               <h4>Best Graphic Designs In The Market</h4>
               <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Whether it be Metamask, the go-to wallet for crypto veterans or Fortmatic that works with your phone/email.</p>
             </div>
             <div class="item">
               <h4>Best Content Ideas for your pages</h4>
               <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Your success is our success. While our platform is really easy to use, feel free to contact us via the link at the bottom of the page if you need any help - We're super responsive to your queries!</p>
             </div>
             <div class="item">
               <h4>Optimizing Speed for your web pages</h4>
               <div class="icon"><img src="assets/images/service-icon-04.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+              <p>Share memorabilia that your fans adore en masse to promote upcoming launches, releases, & events. Choose the right mode of Airdrop for your campaign  for your users.</p>
             </div>
           </div>
         </div>

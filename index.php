@@ -66,10 +66,9 @@
             <div class="col-lg-6 align-self-center">
               <div class="owl-carousel owl-banner">
                 <div class="item header-text">
-                  <h6>Welcome, My is Andy Smith </h6>
+                  <h6>Welcome, to the digital world </h6>
                   <h2>Professional <em>NFT Creator</em> and Digital Assets <span>Artist</span></h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p>Grow your NFT brand with zero technical expertise, creator & enterprise friendly features, complete customisation, and tons of integrations!</p>
                   <div class="down-buttons">
                     <div class="main-blue-button-hover">
                       <a href="services.php">Our Services</a>
@@ -111,7 +110,7 @@
                     <div class="icon">
                       <img src="assets/images/service-icon-01.png" alt="">
                     </div>
-                    <div class="count-digit">320</div>
+                    <div class="count-digit">2</div>
                     <div class="count-title">NFT Projects</div>
                     <p>Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
                   </div>
@@ -123,7 +122,7 @@
                     <div class="icon">
                       <img src="assets/images/service-icon-02.png" alt="">
                     </div>
-                    <div class="count-digit">640</div>
+                    <div class="count-digit">50+</div>
                     <div class="count-title">Diigital Assets</div>
                     <p>Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
                   </div>
@@ -135,7 +134,7 @@
                     <div class="icon">
                       <img src="assets/images/service-icon-03.png" alt="">
                     </div>
-                    <div class="count-digit">120</div>
+                    <div class="count-digit">2</div>
                     <div class="count-title">Satisfied Clients</div>
                     <p>Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
                   </div>
