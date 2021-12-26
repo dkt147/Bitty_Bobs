@@ -18,21 +18,36 @@
           <div class="owl-carousel owl-portfolio">
 
 
+          <?php
 
-            <div class="item" >
+$con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
+$query = "SELECT * FROM `product`";
+$res = mysqli_query($con, $query);
+
+if (mysqli_num_rows($res) > 0) {
+    while ($row = mysqli_fetch_assoc($res)) {
+
+?>
+        <!-- <option style="color: black;" value="<?php echo $row['id']; ?>"><?php echo $row['catagory']; ?></option>
+       -->
+      
+        <div class="item" >
               <div class="thumb">
-                <img src="assets/images/p6.png" alt="" style="height: 500px;">
+                <img src="Admin/uploads/<?php echo $row['image']; ?>" alt="" style="height: 500px;">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a href="portfolio-detail.php"><h4>First Project</h4></a>
-                    <span>Plot Listing</span>
+                    <a href="portfolio-detail.php"><h4><?php echo $row['id']; ?></h4></a>
+                    <span><?php echo $row['c_id']; ?></span>
                   </div>
                 </div>
               </div>
             </div>
+<?php
+    }
+}
+?>
+           
             
-
-
             
           </div>
         </div>

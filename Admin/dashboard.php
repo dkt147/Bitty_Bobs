@@ -1,7 +1,4 @@
-<?php
-//Checking Session Variable...
-  include 'session.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
