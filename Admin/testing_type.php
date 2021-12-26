@@ -48,9 +48,9 @@
                     <div class="col-12">
                         <div class="card ">
                             <div class="card-header">
-                                <h3 class="card-title"> Testing Type</h3><br>
+                                <h3 class="card-title"> Subscription </h3><br>
                                 <!-- Add new type -->
-                                <h4 class="card-title"><a class="btn btn-success" href="createtype.php">Add Type</a></h4>
+                                <!-- <h4 class="card-title"><a class="btn btn-success" href="createtype.php">Add Type</a></h4> -->
 
                             
                             </div>
@@ -66,14 +66,14 @@
 
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    TESTING ID
+                                                    ID
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    TESTING TYPE
+                                                    EMAIL
                                                 </th>
-                                                <th style="text-align: center;">
+                                                <!-- <th style="text-align: center;">
                                                     EDIT
-                                                </th>
+                                                </th> -->
                                                 <th style="text-align: center;">
                                                     DELETE
                                                 </th>
@@ -83,11 +83,11 @@
                                             <?php
 
                     //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
                       
                    
 
-                      $query = "SELECT * FROM `testing_type`";
+                      $query = "SELECT * FROM `email`";
                       $res = mysqli_query($con, $query);
 
                          
@@ -100,16 +100,16 @@
 
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['testing_Id'] ?>
+                                                            <?php echo $row['id'] ?>
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['testing_type'] ?>
+                                                            <?php echo $row['email'] ?>
                                                         </td>
-                                                        <td style="text-align: center;color:white">
-                                                            <a href="edittype.php?id=<?php echo $row['testing_Id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
-                                                        </td>
+                                                        <!-- <td style="text-align: center;color:white">
+                                                            <a href="edittype.php?id=<?php echo $row['id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
+                                                        </td> -->
                                                         <td style="text-align: center;color:white;">
-                                                            <a href='deletetype.php?id=<?php echo $row['testing_Id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
+                                                            <a href='deletetype.php?id=<?php echo $row['id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
                                                     </tr>
                                             <?php
                                                 }

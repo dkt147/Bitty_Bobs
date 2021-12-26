@@ -90,25 +90,25 @@
               ?>
               <a href="testing_type.php?id=4">
                 <i class="tim-icons icon-bell-55"></i>
-                <p>Testing Type</p>
+                <p>Email</p>
               </a>
               </li>
 
-          <?php
+          <!-- <?php
           //Checking Click To Active Sidebar...
-          if (isset($_GET['id']) and $_GET['id'] == 3) { ?>
+          //if (isset($_GET['id']) and $_GET['id'] == 3) { ?>
             <li class="active">
-            <?php
-          } else { ?>
+           // <?php
+         // } else { ?>
             <li>
-            <?php
-          }
+          //  <?php
+         // }
             ?>
             <a href="testing.php?id=3">
               <i class="tim-icons icon-pin"></i>
               <p>Testing</p>
             </a>
-            </li>
+            </li> -->
             
 
                 

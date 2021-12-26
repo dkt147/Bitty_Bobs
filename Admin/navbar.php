@@ -36,7 +36,7 @@
 
                       <!--Username Using Session-->
 
-                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item" style="color: blue;">Daniyal</a></li>
+                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item" style="color: blue;">ARBURST USA</a></li>
                         <li class="dropdown-divider"></li>
 
                       <!--It will redirect to Login Page and Destroy Login Session-->
