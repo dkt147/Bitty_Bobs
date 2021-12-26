@@ -97,7 +97,7 @@
                     <tbody>
                       <?php
                     //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
                     
 
                       
@@ -122,17 +122,17 @@
                               <?php echo $c ?>
                             </td>
                             <td style="text-align: center;">
-                              <?php echo $row['u_Name'] ?>
+                              <?php echo $row['name'] ?>
                             </td>
                             <td style="text-align: center;">
-                              <?php echo md5($row['u_pass']) ?>
+                              <?php echo md5($row['pass']) ?>
                             </td>
                             <td style="text-align: center;color:white">
-                              <a href="edituser.php?id=<?php echo $row['u_Id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
+                              <a href="edituser.php?id=<?php echo $row['id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
 
                             </td>
                             <td style="text-align: center;color:white;">
-                              <a href='deleteuser.php?id=<?php echo $row['u_Id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
+                              <a href='deleteuser.php?id=<?php echo $row['id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
                           </tr>
                       <?php
                         }

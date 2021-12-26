@@ -62,9 +62,9 @@
                                   //Creating Session...
                                     $_SESSION['eid'] = $eid;
                                   //Connection Stablishing...
-                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                                    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
                                   //Getting data to edit...
-                                    $query = "SELECT * FROM `users` Where u_Id = {$eid}";
+                                    $query = "SELECT * FROM `users` Where id = {$eid}";
                                     $res = mysqli_query($con, $query);
 
                                     if (mysqli_num_rows($res) > 0) {
@@ -78,7 +78,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
 
-                                                            <input type="hidden" class="form-control" value="<?php echo $row['u_Id']; ?>" name="id" placeholder="" required>
+                                                            <input type="hidden" class="form-control" value="<?php echo $row['id']; ?>" name="id" placeholder="" required>
                                                         </div>
                                                     </div>
 
@@ -88,7 +88,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
                                                             <label>User Name</label>
-                                                            <input type="text" class="form-control" value="<?php echo $row['u_Name']; ?>" name="name" placeholder="User Name" required>
+                                                            <input type="text" class="form-control" value="<?php echo $row['name']; ?>" name="name" placeholder="User Name" required>
                                                         </div>
                                                     </div>
 
@@ -97,7 +97,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
                                                             <label>User Password</label>
-                                                            <input type="text" class="form-control" name="pass" value="<?php echo $row['u_pass']; ?>" placeholder="Password" required>
+                                                            <input type="text" class="form-control" name="pass" value="<?php echo $row['pass']; ?>" placeholder="Password" required>
                                                         </div>
                                                     </div>
 

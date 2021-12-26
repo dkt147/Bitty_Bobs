@@ -63,10 +63,10 @@
                                     $_SESSION['eid'] = $eid;
 
                                   //Connection Stablishing...
-                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                                    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
 
                                   //Getting Data to edit...
-                                    $query = "SELECT * FROM `products_catagory` Where cat_Id = {$eid}";
+                                    $query = "SELECT * FROM `catagory` Where id = {$eid}";
                                     $res = mysqli_query($con, $query);
 
                                     if (mysqli_num_rows($res) > 0) {
@@ -81,7 +81,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
 
-                                                            <input type="hidden" class="form-control" value="<?php echo $row['cat_Id']; ?>" name="id" placeholder="" required>
+                                                            <input type="hidden" class="form-control" value="<?php echo $row['id']; ?>" name="id" placeholder="" required>
                                                         </div>
                                                     </div>
 
@@ -91,7 +91,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
                                                             <label>Assign New Category</label>
-                                                            <input type="text" class="form-control" value="<?php echo $row['cat_Name']; ?>" name="name" placeholder="Category Id" required>
+                                                            <input type="text" class="form-control" value="<?php echo $row['catagory']; ?>" name="catagory" placeholder="Category Id" required>
                                                         </div>
                                                     </div>
 
@@ -100,7 +100,7 @@
                                                 <br>
                                                 <div class="row">
                                                     <div class="col-md-6 pr-md-1">
-                                                        <input type="submit" class="btn btn-fill btn-success" name="updatebatch" value="Update">
+                                                        <input type="submit" class="btn btn-fill btn-success" name="update" value="Update">
 
                                                     </div>
 

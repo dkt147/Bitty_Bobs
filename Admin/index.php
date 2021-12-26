@@ -28,7 +28,7 @@
 
                              <!--Login Form-->
 
-                    <form method="POST" action="imdex.php" id="signup-form" class="signup-form">
+                    <form method="POST" action="index.php" id="signup-form" class="signup-form">
                         <h2 class="form-title" style="color: white;">Login Account</h2>
                         <div class="form-group">
                             <input type="hidden" class="form-input" name="id" id="id" placeholder="id" />
@@ -54,7 +54,7 @@
         if (isset($_POST['submit'])) {
 
           //Connection stablishing...
-            $con = mysqli_connect("localhost", "root", "", "lab_automation");
+            $con = mysqli_connect("localhost", "root", "", "nft");
 
           //Getting Data From Form...
             $id = $_POST['id'];
@@ -62,14 +62,14 @@
             $pass = $_POST['password'];
 
           //Checking if the credentials are right..
-            $sql = "SELECT * FROM `users` WHERE u_Name ='$name'  and u_pass = '$pass'";
+            $sql = "SELECT * FROM `users` WHERE name ='$name'  and pass = '$pass'";
             $res = mysqli_query($con, $sql);
 
           //Redirection after checking data..
             if ($row = mysqli_fetch_assoc($res)) {
                 session_start();
                 echo $_SESSION['id'] = $name;
-                header("Location: http://localhost/LAB/Views/dashboard.php");
+                header("Location: dashboard.php");
             } elseif (!isset($_SESSION['id'])) {
                 echo "<script>alert('LOGIN FAILED')</script>";
             }

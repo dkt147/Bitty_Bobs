@@ -11,10 +11,10 @@ if (isset($_POST['updateuser'])) {
     echo $eid = $_POST['id'];
 
 //Connection stablishing...
-    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
     
 //Update Query For Mysql...
-        echo $query = "UPDATE `users` SET `u_Name`='$name',`u_pass`='$pass' WHERE u_Id = $eid";
+        echo $query = "UPDATE `users` SET `name`='$name',`pass`='$pass' WHERE id = $eid";
         $res = mysqli_query($con, $query);
 
 //Redirection to another page...

@@ -84,19 +84,31 @@
 
                                                 
                                                 <th style="text-align: center;">
-                                                    PRODUCT ID
+                                                    ID
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    PRODUCT NAME
+                                                    NAME
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    PRODUCT IMAGE
+                                                    IMAGE
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    PRODUCT DETAILS
+                                                    DETAILS
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    CATEGORY NAME
+                                                    CATEGORY
+                                                </th>
+                                                <th style="text-align: center;">
+                                                    ARTIST
+                                                </th>
+                                                <th style="text-align: center;">
+                                                    SIZE
+                                                </th>
+                                                <th style="text-align: center;">
+                                                    CREATED
+                                                </th>
+                                                <th style="text-align: center;">
+                                                    COLLECTION
                                                 </th>
                                                 <th style="text-align: center;">
                                                     EDIT
@@ -110,21 +122,21 @@
                                             <?php
 
                     //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
                       
                     //Checking Validity for Search Query...
                       if(isset($_POST['searchbtn']) && !empty($_POST['searchproduct']))
                           {
-                              $id = $_POST['searchproduct']; 
+                              $name = $_POST['searchproduct']; 
                               
-                      $query = "SELECT * FROM `products`,products_catagory where p_Name = '$id' and c_id_fk=cat_id";
+                      $query = "SELECT * FROM `product` where name = '$name'";
                       $res = mysqli_query($con, $query);
                               
                               
                           }
                           else{
 
-                      $query = "SELECT * FROM `products`,products_catagory where c_id_fk=cat_id";
+                      $query = "SELECT * FROM `product`";
                       $res = mysqli_query($con, $query);
 
                           }
@@ -140,23 +152,36 @@
                                                             <?php echo $c ?>
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['p_Name'] ?>
+                                                            <?php echo $row['name'] ?>
                                                         </td>
                                                        
                                                         <td style="text-align: center;">
-                                                            <img src="uploads/<?php echo $row['p_Image'] ?>" width="80px" height="80px" style="border-radius:50px">
+                                                            <img src="uploads/<?php echo $row['image'] ?>" width="80px" height="80px" style="border-radius:50px">
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['p_Details'] ?>
+                                                            <?php echo $row['detail'] ?>
+                                                        </td>
+                                                        
+                                                        <td style="text-align: center;">
+                                                            <?php echo $row['c_id'] ?>
                                                         </td>
                                                          <td style="text-align: center;">
-                                                            <?php echo $row['cat_Name'] ?>
+                                                            <?php echo $row['artist'] ?>
+                                                        </td>
+                                                        <td style="text-align: center;">
+                                                            <?php echo $row['size'] ?>
+                                                        </td>
+                                                         <td style="text-align: center;">
+                                                            <?php echo $row['created'] ?>
+                                                        </td>
+                                                        <td style="text-align: center;">
+                                                            <?php echo $row['collection'] ?>
                                                         </td>
                                                         <td style="text-align: center;color:white">
-                                                            <a href="editproduct.php?id=<?php echo $row['p_Id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
+                                                            <a href="editproduct.php?id=<?php echo $row['id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
                                                         </td>
                                                         <td style="text-align: center;color:white;">
-                                                            <a href='deleteproduct.php?id=<?php echo $row['p_Id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
+                                                            <a href='deleteproduct.php?id=<?php echo $row['id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
                                                     </tr>
                                             <?php
                                                 }

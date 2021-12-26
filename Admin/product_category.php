@@ -81,11 +81,11 @@
                                         <tbody>
                                             <?php
                     //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
                       
                     
 
-                      $query = "SELECT * FROM `products_catagory`";
+                      $query = "SELECT * FROM `catagory`";
                       $res = mysqli_query($con, $query);
 
                           
@@ -99,17 +99,17 @@
 
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['cat_Id'] ?>
+                                                            <?php echo $row['id'] ?>
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['cat_Name'] ?>
+                                                            <?php echo $row['catagory'] ?>
                                                         </td>
                                                         <td style="text-align: center;color:white">
-                                                            <a href="editcategory.php?id=<?php echo $row['cat_Id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
+                                                            <a href="editcategory.php?id=<?php echo $row['id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
 
                                                         </td>
                                                         <td style="text-align: center;color:white;">
-                                                            <a href='deletecategory.php?id=<?php echo $row['cat_Id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
+                                                            <a href='deletecategory.php?id=<?php echo $row['id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
                                                     </tr>
                                             <?php
                                                 }

@@ -37,17 +37,17 @@
             $pass = $_POST['pass'];
 
         //Connection Stablishing...
-            $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+            $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
             
         //Checking if fields are not empty...
             if (!empty($name) && !empty($pass)) {
 
           //Insert Query for Mysql...
-            $query = "INSERT INTO `users`(`u_Name`,`u_pass`) VALUES ('{$name}','{$pass}')";
+            $query = "INSERT INTO `users`(`name`,`pass`) VALUES ('{$name}','{$pass}')";
             $res = mysqli_query($con, $query);
 
           //Redirection To Another Page...
-            header("Location: http://localhost/LAB/Views/dashboard.php");
+            header("Location: dashboard.php");
             
           //Connection Close...
             mysqli_close($con);

@@ -38,15 +38,15 @@
         $cat = $_POST['name'];
 
     //Connection stablishing...
-        $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+        $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
     
     //Insert Query for Mysql...
 
-        $query = "INSERT INTO `products_catagory`(`cat_Name`) VALUES ('{$cat}')";
+        $query = "INSERT INTO `catagory`(`catagory`) VALUES ('{$cat}')";
         $res = mysqli_query($con, $query);
 
     //Redirection to product_category page...
-        header("Location: http://localhost/LAB/Views/product_category.php");
+        header("Location: product_category.php");
     
     //Connection Close...
         mysqli_close($con);
