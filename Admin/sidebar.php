@@ -4,11 +4,11 @@
   <div class="sidebar-wrapper">
     <div class="logo">
       <a href="dashboard.php?id=1" class="simple-text logo-mini">
-        LA
+        NFT
       </a>
       <!--Title Of Project-->
       <a href="dashboard.php?id=1" class="simple-text logo-normal">
-        LAB AUTOMATION
+        Admin Panel
       </a>
     </div>
     <ul class="nav">
@@ -74,7 +74,7 @@
                 ?>
                 <a href="testing_batch.php?id=5">
                   <i class="tim-icons icon-single-02"></i>
-                  <p>Testing Batch</p>
+                  <p>Contact</p>
                 </a>
                 </li>
 

@@ -49,10 +49,10 @@
                     <div class="col-12">
                         <div class="card ">
                             <div class="card-header">
-                                <h3 class="card-title"> Testing Batch</h3><br>
+                                <h3 class="card-title"> Contact Queries</h3><br>
                                 <!-- Add new Batch -->
-                                <h4 class="card-title"><a class="btn btn-success" href="createbatch.php">Create Batch</a></h4>
-                           
+                                <!-- <h4 class="card-title"><a class="btn btn-success" href="createbatch.php">Create Batch</a></h4>
+                            -->
                             </div>
 
                             <div class="card-body">
@@ -66,17 +66,20 @@
 
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    BATCH ID
+                                                    ID
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    BATCH NAME
+                                                    NAME
                                                 </th>
                                                 <th style="text-align: center;">
-                                                    PRODUCT NAME
+                                                    EMAIL
                                                 </th>
                                                 <th style="text-align: center;">
+                                                    MESSAGE
+                                                </th>
+                                                <!-- <th style="text-align: center;">
                                                     EDIT
-                                                </th>
+                                                </th> -->
                                                 <th style="text-align: center;">
                                                     DELETE
                                                 </th>
@@ -85,11 +88,11 @@
                                         <tbody>
                                             <?php
                     //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
                       
                    
 
-                      $query = "SELECT * FROM `product_batch`,products where p_id=prd_id_fk";
+                      $query = "SELECT * FROM `contact`";
                       $res = mysqli_query($con, $query) or die(mysqli_error($con));
 
                           
@@ -103,20 +106,23 @@
 
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['b_Id'] ?>
+                                                            <?php echo $row['id'] ?>
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['b_name'] ?>
+                                                            <?php echo $row['name'] ?>
                                                         </td>
                                                         <td style="text-align: center;">
-                                                            <?php echo $row['p_Name'] ?>
+                                                            <?php echo $row['email'] ?>
                                                         </td>
-                                                        <td style="text-align: center;color:white">
+                                                        <td style="text-align: center;">
+                                                            <?php echo $row['message'] ?>
+                                                        </td>
+                                                        <!-- <td style="text-align: center;color:white">
                                                             <a href="editbatch.php?id=<?php echo $row['b_Id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
 
-                                                        </td>
+                                                        </td> -->
                                                         <td style="text-align: center;color:white;">
-                                                            <a href='deletebatch.php?id=<?php echo $row['b_Id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
+                                                            <a href='deletebatch.php?id=<?php echo $row['id'] ?>' style="color:white;"><i class="fas fa-trash"></i></a></td>
                                                     </tr>
                                             <?php
                                                 }
