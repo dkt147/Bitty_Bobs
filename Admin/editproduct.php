@@ -63,10 +63,10 @@
                                     $_SESSION['eid'] = $eid;
 
                                   //Connection Stablishing...
-                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+                                    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
 
                                   //Getting Data to edit...
-                                    $query = "SELECT * FROM `products`,products_catagory where c_id_fk=cat_id and p_Id=$eid";
+                                    $query = "SELECT * FROM `product` where id =$eid";
                                     $res = mysqli_query($con, $query);
 
                                     if (mysqli_num_rows($res) > 0) {
@@ -80,7 +80,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
 
-                                                            <input type="hidden" class="form-control" value="<?php echo $row1['p_Id']; ?>" name="id" placeholder="" required>
+                                                            <input type="hidden" class="form-control" value="<?php echo $row1['id']; ?>" name="id" placeholder="" required>
                                                         </div>
                                                     </div>
 
@@ -89,7 +89,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
                                                             <label>Product Name</label>
-                                                            <input type="text" class="form-control" value="<?php echo $row1['p_Name']; ?>" name="p_name" placeholder="Test Date" required>
+                                                            <input type="text" class="form-control" value="<?php echo $row1['name']; ?>" name="name" placeholder="Test Date" required>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -98,7 +98,7 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
                                                             <label>Product Image</label>
-                                                            <img class="form-control" src="uploads/<?php echo $row1['p_Image']; ?>" style="height: 200px" name="file">
+                                                            <img class="form-control" src="uploads/<?php echo $row1['image']; ?>" style="height: 200px" name="file">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -108,37 +108,44 @@
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
                                                             <label>Product Details</label>
-                                                            <input type="text" class="form-control" value="<?php echo $row1['p_Details']; ?>" name="p_detail" placeholder="Test Date" required>
+                                                            <input type="text" class="form-control" value="<?php echo $row1['detail']; ?>" name="detail" placeholder="Test Date" required>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <br>
                                                    <div class="row">
                                         <div class="col-md-6 pr-md-1">
-                                            <div class="form-group">
-                                                <label>Product Category</label>
-                                                <select class="form-control" name="cat_Name">
-                                                    <option style="color: black;" value="<?php echo $row1['cat_Id']; ?>"><?php echo $row1['cat_Name']; ?></option>
+                                                        <div class="form-group">
+                                                            <label>Product Artist</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row1['artist']; ?>" name="artist" placeholder="Test Date" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-                                                    <?php
-
-                                                   
-                                                    $query = "SELECT * FROM `products_catagory`";
-                                                    $res = mysqli_query($con, $query);
-
-                                                    if (mysqli_num_rows($res) > 0) {
-                                                        while ($row = mysqli_fetch_assoc($res)) {
-
-                                                    ?>
-                                                            <option style="color: black;" value="<?php echo $row['cat_Id']; ?>"><?php echo $row['cat_Name']; ?></option>
-                                                    <?php
-                                                        }
-                                                    }
-                                                    ?>
-                                                </select></div>
-                                        </div>
-
-                                    </div>
+                                                <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group">
+                                                            <label>Product Size</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row1['size']; ?>" name="size" placeholder="Test Date" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group">
+                                                            <label>Product Created</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row1['created']; ?>" name="created" placeholder="Test Date" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group">
+                                                            <label>Product Collection</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row1['collection']; ?>" name="collection" placeholder="Test Date" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 <br>
 
                                                 
