@@ -28,7 +28,7 @@
 
                              <!--Login Form-->
 
-                    <form method="POST" action="login.php" id="signup-form" class="signup-form">
+                    <form method="POST" action="imdex.php" id="signup-form" class="signup-form">
                         <h2 class="form-title" style="color: white;">Login Account</h2>
                         <div class="form-group">
                             <input type="hidden" class="form-input" name="id" id="id" placeholder="id" />

@@ -7,6 +7,6 @@ unset($_SESSION['id']);
 
 session_destroy();
                 
-header("Location: http://localhost/LAB/Views/login.php");
+header("Location: index.php");
 
 ?>
