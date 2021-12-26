@@ -107,7 +107,7 @@
                                         <div class="col-md-6 pr-md-1">
                                             <div class="form-group">
                                                 <label>Product Name</label>
-                                                <input type="text" class="form-control" name="p_name" placeholder="Name" required>
+                                                <input type="text" class="form-control" name="name" placeholder="Name" required>
                                             </div>
                                         </div>
 
@@ -126,7 +126,7 @@
                                         <div class="col-md-6 pr-md-1">
                                             <div class="form-group">
                                                 <label>Product Detail</label>
-                                                <input type="text" class="form-control" name="p_detail" placeholder="Detail" required>
+                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
                                             </div>
                                         </div>
 
@@ -135,7 +135,7 @@
                                         <div class="col-md-6 pr-md-1">
                                             <div class="form-group">
                                                 <label>Category</label>
-                                                <select class="form-control" name="p_category">
+                                                <select class="form-control" name="catagory">
                                                     <option selected disabled>Select Category</option>
                                                     <?php
 
@@ -159,31 +159,42 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6 pr-md-1">
-                                            <div class="form-group">
-                                                <label>Batch Id</label>
-                                                <select class="form-control" name="p_batch">
-                                                    <option selected disabled>Select Batch</option>
+                                        <div class="form-group">
+                                                <label>Product Artist</label>
+                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                            </div>
+                                        </div>
 
-                                                    <?php
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                        <div class="form-group">
+                                                <label>Product Size</label>
+                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                            </div>
+                                        </div>
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `product_batch`";
-                                                    $res = mysqli_query($con, $query);
-
-                                                    if (mysqli_num_rows($res) > 0) {
-                                                        while ($row = mysqli_fetch_assoc($res)) {
-
-                                                    ?>
-                                                            <option style="color: black;"><?php echo $row['b_Id']; ?></option>
-                                                    <?php
-                                                        }
-                                                    }
-                                                    ?>
-                                                </select></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                        <div class="form-group">
+                                                <label>Product Created</label>
+                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                            </div>
                                         </div>
 
                                     </div>
                                     
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6 pr-md-1">
+                                        <div class="form-group">
+                                                <label>Product Collection</label>
+                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                     <div class="row">
                                         <div class="col-md-6 pr-md-1">
                                             <input type="submit" class="btn btn-fill btn-success" name="createproduct" value="Add">
