@@ -161,7 +161,7 @@
                                         <div class="col-md-6 pr-md-1">
                                         <div class="form-group">
                                                 <label>Product Artist</label>
-                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                                <input type="text" class="form-control" name="artist" placeholder="Artist" required>
                                             </div>
                                         </div>
 
@@ -170,7 +170,7 @@
                                         <div class="col-md-6 pr-md-1">
                                         <div class="form-group">
                                                 <label>Product Size</label>
-                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                                <input type="text" class="form-control" name="size" placeholder="Size" required>
                                             </div>
                                         </div>
 
@@ -179,7 +179,7 @@
                                         <div class="col-md-6 pr-md-1">
                                         <div class="form-group">
                                                 <label>Product Created</label>
-                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                                <input type="text" class="form-control" name="created" placeholder="Created" required>
                                             </div>
                                         </div>
 
@@ -190,7 +190,7 @@
                                         <div class="col-md-6 pr-md-1">
                                         <div class="form-group">
                                                 <label>Product Collection</label>
-                                                <input type="text" class="form-control" name="detail" placeholder="Detail" required>
+                                                <input type="text" class="form-control" name="collection" placeholder="Collection" required>
                                             </div>
                                         </div>
 
