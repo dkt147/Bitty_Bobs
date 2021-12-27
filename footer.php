@@ -8,7 +8,7 @@
         <div class="col-lg-3">
           <div class="about footer-item">
             <div class="logo">
-              <a href="#"><img src="assets/images/logo.png" alt="Onix Digital TemplateMo"></a>
+              <a href="#"><img src="assets/images/logo2.png" alt="Onix Digital TemplateMo"></a>
             </div>
             <a href="#">info@company.com</a>
             <ul>

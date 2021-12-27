@@ -48,7 +48,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.php" class="logo">
-              <img src="assets/images/logo.png">
+              <img src="assets/images/logo2.png">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->

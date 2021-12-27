@@ -35,7 +35,7 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.php" class="logo">
-              <img src="assets/images/logo.png">
+              <img src="assets/images/logo2.png">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -246,7 +246,7 @@
         <div class="col-lg-3">
           <div class="about footer-item">
             <div class="logo">
-              <a href="#"><img src="assets/images/logo.png" alt="Onix Digital TemplateMo"></a>
+              <a href="#"><img src="assets/images/logo2.png" alt="Onix Digital TemplateMo"></a>
             </div>
             <a href="#">info@company.com</a>
             <ul>
