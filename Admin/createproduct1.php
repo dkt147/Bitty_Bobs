@@ -33,7 +33,7 @@ $file_location = $upload_folder . basename($_FILES["myFile"]["name"]);
         echo $category = $_POST['catagory'];
         echo $artist = $_POST['artist'];
         echo $size = $_POST['size'];
-        echo $created = $_POST['created'];
+        echo $created = date("d-m-Y");
         echo $collection = $_POST['collection'];
 
          

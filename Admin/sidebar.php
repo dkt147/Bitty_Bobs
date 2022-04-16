@@ -78,40 +78,7 @@
                 </a>
                 </li>
 
-                <?php
-                //Checking Click To Active Sidebar...
-            if (isset($_GET['id']) and $_GET['id'] == 4) { ?>
-              <li class="active">
-              <?php
-            } else { ?>
-              <li>
-              <?php
-            }
-              ?>
-              <a href="testing_type.php?id=4">
-                <i class="tim-icons icon-bell-55"></i>
-                <p>Email</p>
-              </a>
-              </li>
-
-          <!-- <?php
-          //Checking Click To Active Sidebar...
-          //if (isset($_GET['id']) and $_GET['id'] == 3) { ?>
-            <li class="active">
-           // <?php
-         // } else { ?>
-            <li>
-          //  <?php
-         // }
-            ?>
-            <a href="testing.php?id=3">
-              <i class="tim-icons icon-pin"></i>
-              <p>Testing</p>
-            </a>
-            </li> -->
-            
-
-                
+                              
     </ul>
   </div>
 </div>

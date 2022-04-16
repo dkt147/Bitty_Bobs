@@ -52,9 +52,8 @@
 
       //Checking if button is clicked or not...
         if (isset($_POST['submit'])) {
-
           //Connection stablishing...
-            $con = mysqli_connect("localhost", "root", "", "nft");
+            echo $con = mysqli_connect("localhost", "root", "", "nft") or die("Failed to connect");
 
           //Getting Data From Form...
             $id = $_POST['id'];
@@ -62,7 +61,7 @@
             $pass = $_POST['password'];
 
           //Checking if the credentials are right..
-            $sql = "SELECT * FROM `users` WHERE name ='$name'  and pass = '$pass'";
+            echo $sql = "SELECT * FROM `users` WHERE name ='$name'  and password = '$pass'";
             $res = mysqli_query($con, $sql);
 
           //Redirection after checking data..

@@ -175,7 +175,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col-md-6 pr-md-1">
                                         <div class="form-group">
                                                 <label>Product Created</label>
@@ -183,7 +183,7 @@
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                     
                                     
                                     <div class="row">

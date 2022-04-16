@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <title>
-        Edit User
+        Edit Category
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
@@ -24,6 +24,7 @@
 <body class="">
 
     <div class="wrapper">
+
         <!-- Sidebar -->
         <?php include 'sidebar.php'; ?>
         <div class="main-panel">
@@ -50,29 +51,31 @@
                     <div class="col-md-7">
                         <div class="card pl-5" style="padding-left: 500px;">
                             <div class="card-header">
-                                <h3 class="title">Update Profile</h3>
+                                <h3 class="title">Update Batch</h3>
                             </div>
                             <div class="card-body">
                                 <?php
                             //Checking if button is clicked or not...
                                 if (isset($_GET['id'])) {
-
-                                  //Getting Id from Url...
+                                  //Getting id from Url...
                                     $eid = $_GET['id'];
                                   //Creating Session...
                                     $_SESSION['eid'] = $eid;
+
                                   //Connection Stablishing...
                                     $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-                                  //Getting data to edit...
-                                    $query = "SELECT * FROM `users` Where id = {$eid}";
+
+                                  //Getting Data to edit...
+                                    $query = "SELECT * FROM `catagory` Where id = {$eid}";
                                     $res = mysqli_query($con, $query);
 
                                     if (mysqli_num_rows($res) > 0) {
 
                                         while ($row = mysqli_fetch_assoc($res)) {
                                 ?>
-                                    <!--Form-->
-                                            <form action="updateuser.php" method="POST">
+
+                                <!--Form-->
+                                            <form action="updatecategory.php" method="POST">
                                                 <div class="row">
 
                                                     <div class="col-md-6 pr-md-1">
@@ -87,25 +90,17 @@
 
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
-                                                            <label>User Name</label>
-                                                            <input type="text" class="form-control" value="<?php echo $row['name']; ?>" name="name" placeholder="User Name" required>
+                                                            <label>Assign New Category</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row['catagory']; ?>" name="catagory" placeholder="Category Id" required>
                                                         </div>
                                                     </div>
 
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-md-6 pr-md-1">
-                                                        <div class="form-group">
-                                                            <label>User Password</label>
-                                                            <input type="text" class="form-control" name="pass" value="<?php echo $row['password']; ?>" placeholder="Password" required>
-                                                        </div>
-                                                    </div>
 
-                                                </div>
                                                 <br>
                                                 <div class="row">
                                                     <div class="col-md-6 pr-md-1">
-                                                        <input type="submit" class="btn btn-fill btn-success" name="updateuser" value="Update">
+                                                        <input type="submit" class="btn btn-fill btn-success" name="update" value="Update">
 
                                                     </div>
 
@@ -129,7 +124,7 @@
         </div>
     </div>
 
-    
+   
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.min.js"></script>
     <script src="assets/js/core/popper.min.js"></script>

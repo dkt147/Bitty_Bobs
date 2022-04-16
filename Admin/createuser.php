@@ -43,7 +43,7 @@
             if (!empty($name) && !empty($pass)) {
 
           //Insert Query for Mysql...
-            $query = "INSERT INTO `users`(`name`,`pass`) VALUES ('{$name}','{$pass}')";
+            $query = "INSERT INTO `users`(`name`,`password`) VALUES ('{$name}','{$pass}')";
             $res = mysqli_query($con, $query);
 
           //Redirection To Another Page...

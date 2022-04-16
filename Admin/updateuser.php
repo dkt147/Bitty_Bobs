@@ -14,7 +14,7 @@ if (isset($_POST['updateuser'])) {
     $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
     
 //Update Query For Mysql...
-        echo $query = "UPDATE `users` SET `name`='$name',`pass`='$pass' WHERE id = $eid";
+        echo $query = "UPDATE `users` SET `name`='$name',`password`='$pass' WHERE id = $eid";
         $res = mysqli_query($con, $query);
 
 //Redirection to another page...

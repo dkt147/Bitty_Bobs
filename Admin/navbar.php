@@ -1,4 +1,10 @@
 <?php include 'session.php';?>
+<?php
+
+session_start();
+$name = $_SESSION['id'];
+
+?>
 <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
     <div class="container-fluid">
         <div class="navbar-wrapper">
@@ -36,7 +42,7 @@
 
                       <!--Username Using Session-->
 
-                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item" style="color: blue;">ARBURST USA</a></li>
+                        <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item" style="color: blue;"><?php echo $name?></a></li>
                         <li class="dropdown-divider"></li>
 
                       <!--It will redirect to Login Page and Destroy Login Session-->

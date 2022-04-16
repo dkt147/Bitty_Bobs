@@ -52,10 +52,10 @@
               <div class="card-header">
 
                 <!-- Title -->
-                <h3 class="card-title"> Testers Profile</h3>
+                <h3 class="card-title"> NFT Dashboard</h3>
                 <br>
                 <!-- Add Button -->
-                <h4 class="card-title"><a class="btn btn-success" href="createuser.php">Add User</a></h4>
+                <h4 class="card-title"><a class="btn btn-success" href="createuser.php">Add New Admin</a></h4>
 
                 <!-- Search Form -->
                 
@@ -122,7 +122,7 @@
                               <?php echo $row['name'] ?>
                             </td>
                             <td style="text-align: center;">
-                              <?php echo md5($row['pass']) ?>
+                              <?php echo md5($row['password']) ?>
                             </td>
                             <td style="text-align: center;color:white">
                               <a href="edituser.php?id=<?php echo $row['id'] ?>" style="color:white;"><i class="fas fa-edit"></i></a>
