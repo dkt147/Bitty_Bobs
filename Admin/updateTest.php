@@ -14,9 +14,9 @@ if (isset($_POST['updateTest'])) {
      echo $att = $_POST['testAtt'];
      echo $remarks = $_POST['remarks'];
      
-    //Connection Stablishing...    
-    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-
+    
+       //Stablishing Connection...
+       include 'connection.php';  
 //Update Query For Mysql...
     echo $query = "UPDATE tests SET p_id_FK = '$pId' , b_id_FK = '$bId', testing_Id_FK = '$tId' , 	u_Id_FK = '$uId' , t_Date = '$tDate' , t_Result = '$res' , t_attempt = '$att' , Remarks = '$remarks' WHERE test_Id = $id";
     $res = mysqli_query($con, $query);

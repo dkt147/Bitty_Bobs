@@ -121,9 +121,9 @@
                                         <tbody>
                                             <?php
 
-                    //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-                      
+               
+       //Stablishing Connection...
+       include 'connection.php';          
                     //Checking Validity for Search Query...
                       if(isset($_POST['searchbtn']) && !empty($_POST['searchproduct']))
                           {

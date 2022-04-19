@@ -1,8 +1,8 @@
 <?php include 'session.php';?>
 <?php
 
-    //Stablishing Connection..
-        $conn = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
+    //Stablishing Connection...
+        include 'connection.php';
     
     //Checking if button is clicked or not...
         if (isset($_POST['createproduct'])) {

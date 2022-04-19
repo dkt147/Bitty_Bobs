@@ -10,9 +10,8 @@ if (isset($_POST['updateuser'])) {
     echo $pass = $_POST['pass'];
     echo $eid = $_POST['id'];
 
-//Connection stablishing...
-    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-    
+       //Stablishing Connection...
+       include 'connection.php';    
 //Update Query For Mysql...
         echo $query = "UPDATE `users` SET `name`='$name',`password`='$pass' WHERE id = $eid";
         $res = mysqli_query($con, $query);

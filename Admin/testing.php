@@ -118,9 +118,9 @@
                                         </thead>
                                         <tbody>
                                             <?php
-                    //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                      
+                  
+       //Stablishing Connection...
+       include 'connection.php';        
                     //Checking validity for search pattern...
                       if(isset($_POST['searchbtn']) && !empty($_POST['searchtest']))
                           {

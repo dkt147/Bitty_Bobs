@@ -38,7 +38,7 @@
         $batch = $_POST['b_id'];
 
         //Stablishing Connection...
-        $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
+        include 'connection.php';
 
         //Insert Query For Mysql..
         $query = "INSERT INTO `product_batch`(`cat_Id_FK`) VALUES ('{$cat}')";

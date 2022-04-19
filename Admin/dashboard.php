@@ -93,11 +93,9 @@
                     </thead>
                     <tbody>
                       <?php
-                    //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-                    
-
-                      
+                   
+       //Stablishing Connection...
+       include 'connection.php';      
                   //Getting Data From Databse...
                       $query = "SELECT * FROM `users`";
                       $res = mysqli_query($con, $query);

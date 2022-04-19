@@ -87,9 +87,9 @@
                                         </thead>
                                         <tbody>
                                             <?php
-                    //Connection Stablishing...
-                      $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-                      
+                  
+       //Stablishing Connection...
+       include 'connection.php';      
                    
 
                       $query = "SELECT * FROM `contact`";

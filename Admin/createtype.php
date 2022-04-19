@@ -31,8 +31,8 @@
         if (isset($_POST['createtype'])) {
 
             $type = $_POST['type'];
-            $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-            
+          //Stablishing Connection...
+        include 'connection.php';
     //Checking if type field is empty...
             if (!empty($type)) {
 

@@ -42,9 +42,10 @@
         echo "<br>".$t_attempt = $_POST['t_attempt'];
         echo "<br>".$Remarks = $_POST['Remarks'];
 
-    //Stablishing Connection...
-        $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-        
+   //Stablishing Connection...
+   include 'connection.php';
+   
+   
     //Insert Query for Mysql...
             echo "<br>".$query = "INSERT INTO `tests`( `b_id_FK`,`p_id_FK`,  `testing_Id_FK`, `u_Id_FK`, `t_Date`, `t_Result`, `t_attempt`, `Remarks`) VALUES ('$b_name','$p_Name','$testing_type','$u_Name','$t_Date','$t_Result','$t_attempt','$Remarks')";
 
@@ -114,8 +115,9 @@
 
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `products`";
+                                                //Stablishing Connection...
+        include 'connection.php';
+            $query = "SELECT * FROM `products`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {
@@ -140,8 +142,9 @@
 
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `testing_type`";
+                                                 //Stablishing Connection...
+        include 'connection.php';
+           $query = "SELECT * FROM `testing_type`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {
@@ -166,8 +169,9 @@
                                                     <option selected disabled>Select Batch </option>
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `product_batch`";
+                                                   //Stablishing Connection...
+        include 'connection.php';
+         $query = "SELECT * FROM `product_batch`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {
@@ -195,8 +199,9 @@
                                                     <option selected disabled> Select Testing Id</option>
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `testing_type`";
+                                               //Stablishing Connection...
+        include 'connection.php';
+              $query = "SELECT * FROM `testing_type`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {
@@ -222,8 +227,9 @@
 
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `users`";
+                                             //Stablishing Connection...
+        include 'connection.php';
+               $query = "SELECT * FROM `users`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {

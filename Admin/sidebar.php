@@ -30,7 +30,7 @@
        
             <?php
             //Checking Click To Active Sidebar...
-                if (isset($_GET['id']) and $_GET['id'] == 6) { ?>
+                if (isset($_GET['id']) and $_GET['id'] == 0) { ?>
                   <li class="active">
                   <?php
                 } else { ?>
@@ -38,7 +38,7 @@
                   <?php
                 }
                   ?>
-                  <a href="product_category.php?id=6">
+                  <a href="product_category.php?id=0">
                     <i class="tim-icons icon-puzzle-10"></i>
                     <p>Product Category</p>
                   </a>
@@ -78,6 +78,72 @@
                 </a>
                 </li>
 
+                <?php
+              //Checking Click To Active Sidebar...
+              if (isset($_GET['id']) and $_GET['id'] == 6) { ?>
+                <li class="active">
+                <?php
+              } else { ?>
+                <li>
+                <?php
+              }
+                ?>
+                <a href="edit_header.php?id=6">
+                  <i class="tim-icons icon-badge"></i>
+                  <p>Header</p>
+                </a>
+                </li>
+
+
+                <?php
+              //Checking Click To Active Sidebar...
+              if (isset($_GET['id']) and $_GET['id'] == 7) { ?>
+                <li class="active">
+                <?php
+              } else { ?>
+                <li>
+                <?php
+              }
+                ?>
+                <a href="edit_about.php?id=7">
+                  <i class="tim-icons icon-link-72"></i>
+                  <p>About</p>
+                </a>
+                </li>
+
+
+                <?php
+              //Checking Click To Active Sidebar...
+              if (isset($_GET['id']) and $_GET['id'] == 8) { ?>
+                <li class="active">
+                <?php
+              } else { ?>
+                <li>
+                <?php
+              }
+                ?>
+                <a href="edit_roadmap.php?id=8">
+                  <i class="tim-icons icon-paper"></i>
+                  <p>RoadMap</p>
+                </a>
+                </li>
+
+
+                <?php
+              //Checking Click To Active Sidebar...
+              if (isset($_GET['id']) and $_GET['id'] == 9) { ?>
+                <li class="active">
+                <?php
+              } else { ?>
+                <li>
+                <?php
+              }
+                ?>
+                <a href="edit_team.php?id=9">
+                  <i class="tim-icons icon-user-run"></i>
+                  <p>Team</p>
+                </a>
+                </li>
                               
     </ul>
   </div>

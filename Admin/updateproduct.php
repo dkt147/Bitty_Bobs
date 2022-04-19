@@ -15,9 +15,9 @@ if (isset($_POST['updateproduct'])) {
     
 
 
-    //Connection Stablishing...
-    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-
+   
+       //Stablishing Connection...
+       include 'connection.php';  
 //Update Query For Mysql...
     echo $query = "UPDATE `product` SET `name`='$p_name',`detail`='$p_detail',`artist`='$artist',`size`='$size',`created`='$created',`collection`='$collection' WHERE id = $eid";
     $res = mysqli_query($con, $query);

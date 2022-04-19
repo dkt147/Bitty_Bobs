@@ -26,26 +26,43 @@
 </head>
 
 <body class="">
-    <?php
+    
+<?php include 'session.php';
 
-    //Stablishing Connection..
-        $conn = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
+   //Stablishing Connection...
+   include 'connection.php';
     
     //Checking if button is clicked or not...
         if (isset($_POST['createproduct'])) {
 
     //Getting Image Path...
-            $target_dir = "uploads/";
+            $target_dir = "";
         echo $temp = $_FILES['myFile']['tmp_name'];
+
         echo $target_file = $target_dir . basename($_FILES["myFile"]["name"]);
-       
+
     //Moving into a folder...
-        move_uploaded_file($temp, "" . $target_file);
+        //move_uploaded_file($temp, "" . $target_file);
+
+        $upload_folder = "uploads/";
+$file_location = $upload_folder . basename($_FILES["myFile"]["name"]);
+
+     if(isset($_FILES['myFile'])){ 
+
+        if(move_uploaded_file($_FILES['myFile']['tmp_name'], $file_location)){
+            
+            echo 'Files has uploaded'; 
+        };
+
+     } 
     //Getting values from a form...
-        echo $name = $_POST['p_name'];
-        echo $detail = $_POST['p_detail'];
-        echo $category = $_POST['p_category'];
-        echo $batch = $_POST['p_batch'];
+        echo $name = $_POST['name'];
+        echo $detail = $_POST['detail'];
+        echo $category = $_POST['catagory'];
+        echo $artist = $_POST['artist'];
+        echo $size = $_POST['size'];
+        echo $created = $_POST['created'];
+        echo $collection = $_POST['collection'];
 
          
 
@@ -53,10 +70,10 @@
 
 
     //Insert Query for Mysql...
-        echo $sql = "INSERT INTO `products`(`c_Id_FK`, `p_Name`, `p_Image`, `p_Details`) VALUES ('$category','$name','$target_file','$detail')";
+        echo $sql = "INSERT INTO `product`(`c_id`, `name`, `image`, `detail`, `artist`, `size`, `created`, `collection`) VALUES ('$category','$name','$target_file','$detail','$artist','$size','$created','$collection')";
         
 
-        echo $res = mysqli_query($conn, $sql);
+       echo $res = mysqli_query($con, $sql);
 
     //Resdirection To Another Page...
         if ($res == TRUE) {
@@ -65,6 +82,7 @@
             header("Location: product.php");
         } else {
 
+           header("Location: createproduct.php");
         }
     }
     ?>
@@ -139,8 +157,9 @@
                                                     <option selected disabled>Select Category</option>
                                                     <?php
 
-                                                    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-                                                    $query = "SELECT * FROM `catagory`";
+                                                  //Stablishing Connection...
+        include 'connection.php';   
+        $query = "SELECT * FROM `catagory`";
                                                     $res = mysqli_query($con, $query);
 
                                                     if (mysqli_num_rows($res) > 0) {
@@ -175,7 +194,7 @@
                                         </div>
 
                                     </div>
-                                    <!-- <div class="row">
+                                    <div class="row">
                                         <div class="col-md-6 pr-md-1">
                                         <div class="form-group">
                                                 <label>Product Created</label>
@@ -183,7 +202,7 @@
                                             </div>
                                         </div>
 
-                                    </div> -->
+                                    </div>
                                     
                                     
                                     <div class="row">

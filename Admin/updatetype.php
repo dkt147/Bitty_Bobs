@@ -8,9 +8,9 @@ if (isset($_POST['updatetype'])) {
     echo $name = $_POST['name'];
     echo $eid = $_POST['id'];
 
-//Update Query For Mysql...
-    $con = mysqli_connect("localhost", "root", "", "lab_automation") or die("Query Failed!!!");
 
+       //Stablishing Connection...
+       include 'connection.php';  
 //Update Query for Mysql...
     echo $query = "UPDATE `testing_type` SET `testing_type`='$name' WHERE testing_Id = $eid";
     $res = mysqli_query($con, $query);

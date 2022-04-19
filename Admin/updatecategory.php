@@ -9,9 +9,9 @@ if (isset($_POST['update'])) {
     echo $catagory = $_POST['catagory'];
     echo $eid = $_POST['id'];
 
-//Connection stablishing...
-    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-    
+
+       //Stablishing Connection...
+       include 'connection.php';     
 //Update Query For Mysql...
         echo $query = "UPDATE `catagory` SET `catagory`='$catagory' WHERE id = $eid";
         $res = mysqli_query($con, $query);

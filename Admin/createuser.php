@@ -36,9 +36,8 @@
             $name = $_POST['name'];
             $pass = $_POST['pass'];
 
-        //Connection Stablishing...
-            $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-            
+       //Stablishing Connection...
+       include 'connection.php';      
         //Checking if fields are not empty...
             if (!empty($name) && !empty($pass)) {
 

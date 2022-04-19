@@ -9,9 +9,9 @@ if (isset($_GET['id'])) {
     $did = $_GET['id'];
 
 
-  //Connection Stablishing...
-    $con = mysqli_connect("localhost", "root", "", "nft") or die("Query Failed!!!");
-
+  
+       //Stablishing Connection...
+       include 'connection.php';  
   //Delete Query For Mysql...
     $query = "DELETE FROM `product` WHERE id = $did";
     $res = mysqli_query($con, $query);
