@@ -48,7 +48,56 @@ $res = mysqli_query($con, $query);
                         $roadmap_data6= $row['r6'];
                         $roadmap_data7= $row['r7'];
                                             }
-                                    }              
+                                    }      
+                                    
+                                    
+
+
+
+                                         
+                       $query = "SELECT * FROM `traits`";
+                       $res = mysqli_query($con, $query);
+           
+                                             if (mysqli_num_rows($res) > 0) {
+                                                 while ($row = mysqli_fetch_assoc($res)) {
+                                   $t1= $row['t1'];$t2= $row['t2'];
+                                   $t1_1= $row['t1_1'];
+                                   $t1_2= $row['t1_2'];
+                                   $t1_3= $row['t1_3'];
+                                   $t1_4= $row['t1_4'];
+                                   $t1_5= $row['t1_5'];
+
+                                   $t2_1= $row['t2_1'];
+                                   $t2_2= $row['t2_2'];
+                                   $t2_3= $row['t2_3'];
+
+                                   
+                                   $t3= $row['t3'];
+                                   $c3= $row['c3'];
+                                   $t4= $row['t4'];
+                                   $c4= $row['c4'];
+                                   $t5= $row['t5'];
+                                   $c5= $row['c5'];
+                                   $t6= $row['t6'];
+                                   $c6= $row['c6'];
+                                   $t7= $row['t7'];
+                                   $c7= $row['c7'];
+                                   $t8= $row['t8'];
+                                   $c8= $row['c8'];
+                                   $t9= $row['t9'];
+                                   $c9= $row['c9'];
+                                   $t10= $row['t10'];
+                                   $c10= $row['c10'];
+                                   $t11= $row['t11'];
+                                   $c11= $row['c11'];
+                                   $t12= $row['t12'];
+                                   $c12= $row['c12'];
+                                   $t13= $row['t13'];
+                                   $c13= $row['c13'];
+
+
+                                                       }
+                                               }    
                                     
                                     
                                     
@@ -163,7 +212,8 @@ $res = mysqli_query($con, $query);
     
     <p><?php echo $about_data3?>  </p>
   <div class="btns_group">
-  <a href="https://discord.gg/CtpTfrKE"><span>Discord</span> <img src="assets/images/icon1.png"></a>
+      
+  <a href="https://discord.com/invite/Sq6ERK7nw4"><span>Discord</span> <img src="assets/images/icon1.png"></a>
   <a href="https://twitter.com/bittybobs"><span>Twitter</span> <img src="assets/images/icon2.png"></a>
 </div>
 </div>
@@ -182,27 +232,27 @@ $res = mysqli_query($con, $query);
 <div class="traitsBoxs">
 <div class="traitsBox">
 <div class="traits_cat">
-  <h4>Common</h4>
+  <h4><?php echo $t1?></h4>
 </div>
 <div class="traits_content">
   <div class="traits_txt">
-    <p>Skin Color: white, yellow, tan, brown, and black.</p>
-    <p>Hair Color: 4 different tones for each brown/black, red-head, silver, blonde, purple, and pink hair, and brown with highlights. Hair Styles range from: bobs, pigtails, braids, long and straight, curly, afro, space buns, textured, bun, pixie cut, shaved head, and pixie with buzzed sides.</p>
-    <p>Eyebrows: 3 different types of eyebrows ranging from thin, thicker, to thick</p>
-    <p>Eye Color: not just blue, green, brown, but also dolls with heterochromia (brown/blue, brown/green, green/blue) Wide range of clothing and accessories with their hands down</p>
-    <p>Include: 3 different types of sunglasses, backwards hat, hair clips, eyeglasses, cowboy hats, flower crowns, necklaces, stud earrings, and cuff earrings.</p>
+    <p><?php echo $t1_1?></p>
+    <p><?php echo $t1_2?></p>
+    <p><?php echo $t1_3?></p>
+    <p><?php echo $t1_4?></p>
+    <p><?php echo $t1_5?></p>
   </div>
 </div>
 </div>
 <div class="traitsBox">
   <div class="traits_cat">
-    <h4>Rare</h4>
+    <h4><?php echo $t2?></h4>
   </div>
   <div class="traits_content">
     <div class="traits_txt">
-      <p>Same dolls as we know and love but with their hands up, holding accessories</p>
-      <p>Nail colors: purple, tan, red, green, and pink Wide range of clothing and accessories with their hands up</p>
-      <p>Include: cigarettes, ice cream cones (chocolate, vanilla, strawberry), pink cell phones, jewel crowns, coffee cups, lollipops, and bubblegum.</p>
+      <p><?php echo $t2_1?></p>
+      <p><?php echo $t2_2?></p>
+      <p><?php echo $t2_3?></p>
     </div>
   </div>
 </div>
@@ -218,110 +268,110 @@ $res = mysqli_query($con, $query);
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Ultra-feminine curvier women</p>
+        <p><?php echo $t3?></p>
       </div>
       <div class="doll_numbers">
-        <p>5 dolls</p>
+        <p><?php echo $c3?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Arms crossed</p>
+        <p><?php echo $t4?></p>
       </div>
       <div class="doll_numbers">
-        <p>5 dolls</p>
+        <p><?php echo $c4?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Women with saggy chest</p>
+        <p><?php echo $t5?></p>
       </div>
       <div class="doll_numbers">
-        <p>4 dolls</p>
+        <p><?php echo $c5?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Hair towel and robe</p>
+        <p><?php echo $t6?></p>
       </div>
       <div class="doll_numbers">
-        <p>4 dolls</p>
+        <p><?php echo $c6?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Hijab</p>
+        <p><?php echo $t7?></p>
       </div>
       <div class="doll_numbers">
-        <p>3 dolls</p>
+        <p><?php echo $c7?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Hairy armpits</p>
+        <p><?php echo $t8?></p>
       </div>
       <div class="doll_numbers">
-        <p>2 dolls</p>
+        <p><?php echo $c8?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Pregnant women</p>
+        <p><?php echo $t9?></p>
       </div>
       <div class="doll_numbers">
-        <p>2 dolls</p>
+        <p><?php echo $c9?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Women with bionic arm</p>
+        <p><?php echo $t10?></p>
       </div>
       <div class="doll_numbers">
-        <p>2 dolls</p>
+        <p><?php echo $c10?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Angel costume</p>
+        <p><?php echo $t11?></p>
       </div>
       <div class="doll_numbers">
-        <p>1 dolls</p>
+        <p><?php echo $c11?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Woman pumping milk</p>
+        <p><?php echo $t12?></p>
       </div>
       <div class="doll_numbers">
-        <p>1 dolls</p>
+        <p><?php echo $c12?> dolls</p>
       </div>
     </div>
   </li>
   <li>
     <div class="dollBox">
       <div class="doll_info">
-        <p>Woman with stretch marks</p>
+        <p><?php echo $t13?></p>
       </div>
       <div class="doll_numbers">
-        <p>1 dolls</p>
+        <p><?php echo $c13?> dolls</p>
       </div>
     </div>
   </li>
@@ -466,7 +516,7 @@ include 'connection.php';
 <img src="assets/images/img7.jpg">
 </div>
 <div class="team_socialbox">
-<h5>Artwork</h5>
+<h5>AMANDA</h5>
 <ul>
   <li>
     <a href="https://twitter.com/bittybobs"><img src="assets/images/tw_icon.png"></a>
@@ -475,12 +525,12 @@ include 'connection.php';
     <a href="https://www.instagram.com/bitty.bobs/"><img src="assets/images/insta_icon.png"></a>
   </li>
   <li>
-    <a href="https://discord.gg/CtpTfrKE"><img src="assets/images/com_icon.png"></a>
+    <a href="https://discord.com/invite/Sq6ERK7nw4"><img src="assets/images/com_icon.png"></a>
   </li>
 </ul>
 </div>
 <div class="userMeta">
-<p><span>AMANDA,</span> Founder</p>
+<p>Founder</p>
 </div>
 </div>
 <div class="userInfoBox">
@@ -501,6 +551,7 @@ include 'connection.php';
 <h3>Can we help you?</h3>
 <p>For collaboration or press inquiries, click the button below and come say hi. We promise we don’t bite.</p>
 <a href="https://discord.gg/CtpTfrKE"><img src="assets/images/com_icon.png"> <span>Join the community</span></a>
+  <a href="https://www.instagram.com/bitty.bobs/"><span>Instagram</span> <img src="assets/images/insta_icon.png"></a>
 </div>
 </div>
 <div class="copyrightBox">

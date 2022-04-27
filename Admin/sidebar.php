@@ -144,6 +144,23 @@
                   <p>Team</p>
                 </a>
                 </li>
+
+
+                <?php
+              //Checking Click To Active Sidebar...
+              if (isset($_GET['id']) and $_GET['id'] == 10) { ?>
+                <li class="active">
+                <?php
+              } else { ?>
+                <li>
+                <?php
+              }
+                ?>
+                <a href="edit_trait.php?id=10">
+                  <i class="tim-icons icon-check-2"></i>
+                  <p>Traits</p>
+                </a>
+                </li>
                               
     </ul>
   </div>
