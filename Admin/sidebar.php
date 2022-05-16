@@ -161,6 +161,23 @@
                   <p>Traits</p>
                 </a>
                 </li>
+
+                
+                <?php
+              //Checking Click To Active Sidebar...
+              if (isset($_GET['id']) and $_GET['id'] == 11) { ?>
+                <li class="active">
+                <?php
+              } else { ?>
+                <li>
+                <?php
+              }
+                ?>
+                <a href="edit_press.php?id=11">
+                  <i class="tim-icons icon-basket-simple"></i>
+                  <p>Press</p>
+                </a>
+                </li>
                               
     </ul>
   </div>

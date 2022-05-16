@@ -503,6 +503,58 @@ include 'connection.php';
 </div>
 </div>
 </section>
+<br>
+
+
+
+
+
+
+<div id="traits" style="float: left; width:100%"></div>
+<section class="traits_sec">
+<div class="container">
+<div class="traits_heading">
+<h2>Press</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="dollBoxs">
+<div class="circle_sm"><img src="assets/images/circle_sm.png"></div>
+<div class="dollsBox">
+
+<?php
+
+include 'connection.php';
+            $query = "SELECT * FROM `press`";
+            $res = mysqli_query($con, $query);
+
+                                  if (mysqli_num_rows($res) > 0) {
+                                      while ($row = mysqli_fetch_assoc($res)) {
+                                  ?>
+
+<div class="doll_img">
+  <a href="<?php echo $row['link']?>"><img src="Admin/uploads/<?php echo $row['image']?>" style="height: 482;width:600"> </a>
+</div>
+
+<?php
+                                      }
+                                    }
+?>
+
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
 
 <div id="team" style="float: left; width:100%"></div>
 <section class="team_member_sec">
@@ -543,6 +595,7 @@ include 'connection.php';
 </div>
 </div>
 </section>
+<br>
 
 <div id="contact_us" style="float: left; width:100%"></div>
 <footer>
