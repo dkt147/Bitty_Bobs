@@ -533,12 +533,49 @@ include 'connection.php';
                                   if (mysqli_num_rows($res) > 0) {
                                       while ($row = mysqli_fetch_assoc($res)) {
                                   ?>
-
-<div class="doll_img">
-  <a href="<?php echo $row['link']?>"><img src="Admin/uploads/<?php echo $row['image']?>" style="height: 482;width:600"> </a>
-</div>
-
 <?php
+if(!empty($row['image1'])){
+?>
+<div class="doll_img">
+  <a href="<?php echo $row['link1']?>"><img src="Admin/uploads/<?php echo $row['image1']?>" style="height: 482;width:600"> </a>
+</div>
+<?php
+}
+if(!empty($row['image2'])){
+?>
+<div class="doll_img">
+  <a href="<?php echo $row['link2']?>"><img src="Admin/uploads/<?php echo $row['image2']?>" style="height: 482;width:600"> </a>
+</div>
+<?php
+}
+if(!empty($row['image3'])){
+?>
+<div class="doll_img">
+  <a href="<?php echo $row['link3']?>"><img src="Admin/uploads/<?php echo $row['image3']?>" style="height: 482;width:600"> </a>
+</div>
+<?php
+}
+if(!empty($row['image4'])){
+?>
+<div class="doll_img">
+  <a href="<?php echo $row['link4']?>"><img src="Admin/uploads/<?php echo $row['image4']?>" style="height: 482;width:600"> </a>
+</div>
+<?php
+}
+if(!empty($row['image5'])){
+?>
+<div class="doll_img">
+  <a href="<?php echo $row['link5']?>"><img src="Admin/uploads/<?php echo $row['image5']?>" style="height: 482;width:600"> </a>
+</div>
+<?php
+}
+if(!empty($row['image6'])){
+?>
+<div class="doll_img">
+  <a href="<?php echo $row['link6']?>"><img src="Admin/uploads/<?php echo $row['image6']?>" style="height: 482;width:600"> </a>
+</div>
+<?php
+}
                                       }
                                     }
 ?>
