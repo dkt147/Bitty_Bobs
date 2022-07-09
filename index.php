@@ -8,6 +8,7 @@ $res = mysqli_query($con, $query);
                           while ($row = mysqli_fetch_assoc($res)) {
             $head1 = $row['h1'];
             $head2 = $row['h2'];
+                              $head_image = $row['image'];
                                 }
                         }
 
@@ -19,6 +20,7 @@ $res = mysqli_query($con, $query);
                                   if (mysqli_num_rows($res) > 0) {
                                       while ($row = mysqli_fetch_assoc($res)) {
                         $team_data = $row['detail'];
+                        $team_image = $row['image'];
                                             }
                                     }
                                     
@@ -40,7 +42,8 @@ $res = mysqli_query($con, $query);
 
                                   if (mysqli_num_rows($res) > 0) {
                                       while ($row = mysqli_fetch_assoc($res)) {
-                        $roadmap_data1= $row['r1'];
+                                          $roadmap_title= $row['title'];
+                                          $roadmap_data1= $row['r1'];
                         $roadmap_data2= $row['r2'];
                         $roadmap_data3= $row['r3'];
                         $roadmap_data4= $row['r4'];
@@ -60,7 +63,7 @@ $res = mysqli_query($con, $query);
            
                                              if (mysqli_num_rows($res) > 0) {
                                                  while ($row = mysqli_fetch_assoc($res)) {
-                                   $t1= $row['t1'];$t2= $row['t2'];
+                                   $s1= $row['s1'];$t1= $row['t1'];$t2= $row['t2'];
                                    $t1_1= $row['t1_1'];
                                    $t1_2= $row['t1_2'];
                                    $t1_3= $row['t1_3'];
@@ -261,7 +264,7 @@ $res = mysqli_query($con, $query);
 <div class="container">
 <div class="super_traitsBoxs">
 <div class="super_traits_heading">
-<h3>Super Rare Traits</h3>
+<h3><?php echo $s1?></h3>
 </div>
 <div class="super_traitsBox">
 <ul>
@@ -423,14 +426,12 @@ include 'connection.php';
 <section class="roadmap_sec">
 <div class="container">
 <div class="roadmap_heading">
-<h2><span>Roadmap</span></h2>
-<p>Fostering a safe and positive community</p>
+<h2><span><?php echo $roadmap_title?></span></h2>
 </div>
 <div class="roadmap_timeline">
 <div class="timelineBox_L">
 <div class="timeline_txt">
-  
-<p><?php echo $roadmap_data1?>  </p>
+    <p ><?php echo "<b><u>MINTING </u></b><br>".$roadmap_data1?>  </p>
 </div>
 <div class="emptyBox"></div>
 </div>
@@ -442,7 +443,7 @@ include 'connection.php';
 <div class="timelineBox_R">
 <div class="emptyBox"></div>
 <div class="timeline_txt">
-<p><?php echo $roadmap_data2?>  </p>
+    <p ><?php echo "<b><u>METAVERSE BAR </u></b><br>".$roadmap_data2?>  </p>
 </div>
 </div>
 <div class="timeline_img_R">
@@ -452,7 +453,7 @@ include 'connection.php';
 <div class="roadmap_timeline mrg_0">
 <div class="timelineBox_L">
 <div class="timeline_txt">
-<p><?php echo $roadmap_data3?>  </p>
+    <p ><?php echo "<b><u>MERCH </u></b><br>".$roadmap_data3?>  </p>
 </div>
 <div class="emptyBox"></div>
 </div>
@@ -464,7 +465,7 @@ include 'connection.php';
 <div class="timelineBox_R">
 <div class="emptyBox"></div>
 <div class="timeline_txt">
-<p><?php echo $roadmap_data4?>  </p>
+    <p ><?php echo "<b><u>GIVING </u></b><br>".$roadmap_data4?>  </p>
 </div>
 </div>
 <div class="timeline_img_R">
@@ -474,43 +475,31 @@ include 'connection.php';
 <div class="roadmap_timeline mrg_0">
 <div class="timelineBox_L">
 <div class="timeline_txt">
-<p><?php echo $roadmap_data5?>  </p>
-</div>
-<div class="emptyBox"></div>
-</div>
-<div class="timeline_img_L">
-<img src="assets/images/timline_L.png">
+<p><?php echo "<b><u>UNVEILING</u></b><br>".$roadmap_data5?>  </p>
 </div>
 </div>
-<div class="roadmap_timeline mrg_0">
-<div class="timelineBox_R">
-<div class="emptyBox"></div>
-<div class="timeline_txt">
-<p><?php echo $roadmap_data6?>  </p>
+
 </div>
+<!--<div class="timeline_img_R">-->
+<!--<img src="assets/images/timline_R.png">-->
+<!--</div>-->
 </div>
-<div class="timeline_img_R">
-<img src="assets/images/timline_R.png">
-</div>
-</div>
-<div class="roadmap_timeline mrg_0">
-<div class="timelineBox_L">
-<div class="timeline_txt">
-<p><?php echo $roadmap_data7?>  </p>
-</div>
-<div class="emptyBox"></div>
-</div>
-</div>
+<!--<div class="roadmap_timeline mrg_0">-->
+<!--<div class="timelineBox_L">-->
+<!--<div class="timeline_txt">-->
+<!--<p><?php echo $roadmap_data7?>  </p>-->
+<!--</div>-->
+<!--<div class="emptyBox"></div>-->
+<!--</div>-->
+<!--</div>-->
 </div>
 </section>
-<br>
-
-
-
 
 
 
 <div id="traits" style="float: left; width:100%"></div>
+
+
 <section class="traits_sec">
 <div class="container">
 <div class="traits_heading">
@@ -592,7 +581,6 @@ if(!empty($row['image6'])){
 
 
 
-
 <div id="team" style="float: left; width:100%"></div>
 <section class="team_member_sec">
 <div class="container">
@@ -602,19 +590,13 @@ if(!empty($row['image6'])){
 <div class="team_profile_imgBox">
 <div class="circle_sm"><img src="assets/images/circle_sm.png"></div>
 <div class="profile_imgBox">
-<img src="assets/images/img7.jpg">
+<img src="Admin/uploads/<?php echo $team_image?>" height="800px" width="652px">
 </div>
 <div class="team_socialbox">
 <h5>AMANDA</h5>
 <ul>
   <li>
-    <a href="https://twitter.com/bittybobs"><img src="assets/images/tw_icon.png"></a>
-  </li>
-  <li>
-    <a href="https://www.instagram.com/bitty.bobs/"><img src="assets/images/insta_icon.png"></a>
-  </li>
-  <li>
-    <a href="https://discord.com/invite/Sq6ERK7nw4"><img src="assets/images/com_icon.png"></a>
+    <a href="https://www.instagram.com/amandaazarian/"><img src="assets/images/insta_icon.png"></a>
   </li>
 </ul>
 </div>
@@ -632,7 +614,117 @@ if(!empty($row['image6'])){
 </div>
 </div>
 </section>
-<br>
+
+<!--Start Team Section-->
+<section class="traits_sec">
+    <div class="container">
+        <div class="traits_heading">
+            <h2>My Team</h2>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="dollBoxs">
+            <div class="circle_sm"><img src="assets/images/circle_sm.png"></div>
+            <div class="dollsBox">
+
+                <?php
+
+                include 'connection.php';
+                $query = "SELECT * FROM `my_team`";
+                $res = mysqli_query($con, $query);
+
+                if (mysqli_num_rows($res) > 0) {
+                    while ($row = mysqli_fetch_assoc($res)) {
+                        ?>
+                        <?php
+                        if(!empty($row['image1'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image1']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name1']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role1']?></h2>
+                                <p style="text-align: center"><?php echo $row['description1']?></p>
+                            </div>
+                            <?php
+                        }
+                        if(!empty($row['image2'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image2']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name2']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role2']?></h2>
+                                <p style="text-align: center"><?php echo $row['description2']?></p>
+                            <?php
+                        }
+                        if(!empty($row['image3'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image3']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name3']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role3']?></h2>
+                                <p style="text-align: center"><?php echo $row['description3']?></p>
+                            <?php
+                        }
+                        if(!empty($row['image4'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image4']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name4']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role4']?></h2>
+                                <p style="text-align: center"><?php echo $row['description4']?></p>
+                            <?php
+                        }
+                        if(!empty($row['image5'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image5']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name5']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role5']?></h2>
+                                <p style="text-align: center"><?php echo $row['description5']?></p>
+                            <?php
+                        }
+                        if(!empty($row['image6'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image6']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name6']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role6']?></h2>
+                                <p style="text-align: center"><?php echo $row['description6']?></p>
+                            <?php
+                        }
+                        if(!empty($row['image7'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image7']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name7']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role7']?></h2>
+                                <p style="text-align: center"><?php echo $row['description7']?></p>
+                            <?php
+                        }
+                        if(!empty($row['image8'])){
+                            ?>
+                            <div class="doll_img">
+                                <img src="Admin/uploads/<?php echo $row['image8']?>" style="height: 482;width:600">
+                                <h2 style="text-align: center"><?php echo $row['name8']?></h2>
+                                <h2 style="text-align: center"><?php echo $row['role8']?></h2>
+                                <p style="text-align: center"><?php echo $row['description8']?></p>
+                            <?php
+                        }
+                    }
+                }
+                ?>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Team Section-->
+
+
+
+
 
 <div id="contact_us" style="float: left; width:100%"></div>
 <footer>
@@ -640,7 +732,7 @@ if(!empty($row['image6'])){
 <div class="helpBox">
 <h3>Can we help you?</h3>
 <p>For collaboration or press inquiries, click the button below and come say hi. We promise we don’t bite.</p>
-<a href="https://discord.gg/CtpTfrKE"><img src="assets/images/com_icon.png"> <span>Join the community</span></a>
+<a href="https://discord.com/invite/qMY9VHBjBd"><img src="assets/images/com_icon.png"> <span>Join the community</span></a>
   <a href="https://www.instagram.com/bitty.bobs/"><span>Instagram</span> <img src="assets/images/insta_icon.png"></a>
 </div>
 </div>

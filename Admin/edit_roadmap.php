@@ -81,6 +81,17 @@
 
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
+                                                            <label>Title</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row['title']; ?>" name="title" required>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group">
                                                             <label>Roadmap 1</label>
                                                             <input type="text" class="form-control" value="<?php echo $row['r1']; ?>" name="r1" required>
                                                         </div>

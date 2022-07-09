@@ -178,6 +178,23 @@
                   <p>Press</p>
                 </a>
                 </li>
+
+
+        <?php
+        //Checking Click To Active Sidebar...
+        if (isset($_GET['id']) and $_GET['id'] == 12) { ?>
+        <li class="active">
+            <?php
+            } else { ?>
+        <li>
+            <?php
+            }
+            ?>
+            <a href="edit_myteam.php?id=12">
+                <i class="tim-icons icon-image-02"></i>
+                <p>My Team</p>
+            </a>
+        </li>
                               
     </ul>
   </div>

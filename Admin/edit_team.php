@@ -66,7 +66,7 @@
                                         while ($row = mysqli_fetch_assoc($res)) {
                                 ?>
                                     <!--Form-->
-                                            <form action="updateteam.php" method="POST">
+                                            <form action="updateteam.php" method="POST" enctype="multipart/form-data">
                                                 <div class="row">
 
                                                     <div class="col-md-6 pr-md-1">
@@ -86,6 +86,26 @@
                                                     </div>
                                                 </div>
                                                 <br>
+
+                                                <div class="row">
+                                                    <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group">
+                                                            <label>Profile Image</label>
+                                                            <img class="form-control" src="uploads/<?php echo $row['image']; ?>" style="height: 200px">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+
+                                                <div class=" row">
+                                                    <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group" style="color: white;z-index:10;">
+                                                            <input type="submit" class="btn btn-fill btn-warning" value="Add Image">
+                                                            <input type="file" name="file"><br><br>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                                 <div class="row">
                                                     <div class="col-md-6 pr-md-1">
                                                         <input type="submit" class="btn btn-fill btn-success" name="Update" value="Update">

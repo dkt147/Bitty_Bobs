@@ -81,6 +81,16 @@
 
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
+                                                            <label>Super Title</label>
+                                                            <input type="text" class="form-control" value="<?php echo $row['s1']; ?>" name="s1"  required>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-md-6 pr-md-1">
+                                                        <div class="form-group">
                                                             <label>First Title</label>
                                                             <input type="text" class="form-control" value="<?php echo $row['t1']; ?>" name="t1"  required>
                                                         </div>
