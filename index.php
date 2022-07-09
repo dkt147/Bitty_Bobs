@@ -429,6 +429,7 @@ include 'connection.php';
 <h2><span><?php echo $roadmap_title?></span></h2>
 </div>
 <div class="roadmap_timeline">
+    <h2 class="myClass" style="margin-left: 29%">Q3-2022</h2>
 <div class="timelineBox_L">
 <div class="timeline_txt">
     <p ><?php echo "<b><u>MINTING </u></b><br>".$roadmap_data1?>  </p>
@@ -440,6 +441,7 @@ include 'connection.php';
 </div>
 </div>
 <div class="roadmap_timeline mrg_0">
+    <h2 class="myClass" style="float: right;margin-right: 25%">Q4 2022-Q1 2022</h2>
 <div class="timelineBox_R">
 <div class="emptyBox"></div>
 <div class="timeline_txt">
@@ -642,7 +644,7 @@ if(!empty($row['image6'])){
                         if(!empty($row['image1'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image1']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image1']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name1']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role1']?></h2>
                                 <p style="text-align: center"><?php echo $row['description1']?></p>
@@ -652,64 +654,71 @@ if(!empty($row['image6'])){
                         if(!empty($row['image2'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image2']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image2']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name2']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role2']?></h2>
                                 <p style="text-align: center"><?php echo $row['description2']?></p>
+                            </div>
                             <?php
                         }
                         if(!empty($row['image3'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image3']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image3']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name3']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role3']?></h2>
                                 <p style="text-align: center"><?php echo $row['description3']?></p>
+                            </div>
                             <?php
                         }
                         if(!empty($row['image4'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image4']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image4']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name4']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role4']?></h2>
                                 <p style="text-align: center"><?php echo $row['description4']?></p>
+                            </div>
                             <?php
                         }
                         if(!empty($row['image5'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image5']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image5']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name5']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role5']?></h2>
                                 <p style="text-align: center"><?php echo $row['description5']?></p>
+                            </div>
                             <?php
                         }
                         if(!empty($row['image6'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image6']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image6']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name6']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role6']?></h2>
                                 <p style="text-align: center"><?php echo $row['description6']?></p>
+                            </div>
                             <?php
                         }
                         if(!empty($row['image7'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image7']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image7']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name7']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role7']?></h2>
                                 <p style="text-align: center"><?php echo $row['description7']?></p>
+                            </div>
                             <?php
                         }
                         if(!empty($row['image8'])){
                             ?>
                             <div class="doll_img">
-                                <img src="Admin/uploads/<?php echo $row['image8']?>" style="height: 482;width:600">
+                                <img src="Admin/uploads/<?php echo $row['image8']?>" style="height: 270px;">
                                 <h2 style="text-align: center"><?php echo $row['name8']?></h2>
                                 <h2 style="text-align: center"><?php echo $row['role8']?></h2>
                                 <p style="text-align: center"><?php echo $row['description8']?></p>
+                            </div>
                             <?php
                         }
                     }
