@@ -87,12 +87,22 @@
                                                     </div>
 
                                                 </div>
+                                                <div class="row">
 
+<div class="col-md-6 pr-md-1">
+    <div class="form-group">
+        <label>Roadmap 1</label>
+        <input type="text" class="form-control" value="<?php echo $row['r6']; ?>" name="r6" required>
+    </div>
+</div>
+
+</div>
+                                                <br>
                                                 <div class="row">
 
                                                     <div class="col-md-6 pr-md-1">
                                                         <div class="form-group">
-                                                            <label>Roadmap 1</label>
+                                                            <label>Roadmap 2</label>
                                                             <input type="text" class="form-control" value="<?php echo $row['r1']; ?>" name="r1" required>
                                                         </div>
                                                     </div>
@@ -102,7 +112,7 @@
 
 <div class="col-md-6 pr-md-1">
     <div class="form-group">
-        <label>Roadmap 2</label>
+        <label>Roadmap 3</label>
         <input type="text" class="form-control" value="<?php echo $row['r2']; ?>" name="r2" required>
     </div>
 </div>
@@ -113,7 +123,7 @@
 
 <div class="col-md-6 pr-md-1">
     <div class="form-group">
-        <label>Roadmap 3</label>
+        <label>Roadmap 4</label>
         <input type="text" class="form-control" value="<?php echo $row['r3']; ?>" name="r3" required>
     </div>
 </div>
@@ -124,7 +134,7 @@
 
 <div class="col-md-6 pr-md-1">
     <div class="form-group">
-        <label>Roadmap 4</label>
+        <label>Roadmap 5</label>
         <input type="text" class="form-control" value="<?php echo $row['r4']; ?>" name="r4" required>
     </div>
 </div>
@@ -135,24 +145,14 @@
 
 <div class="col-md-6 pr-md-1">
     <div class="form-group">
-        <label>Roadmap 5</label>
+        <label>Roadmap 6</label>
         <input type="text" class="form-control" value="<?php echo $row['r5']; ?>" name="r5" required>
     </div>
 </div>
 
 </div>
                                                 <br>
-                                                <div class="row">
-
-<div class="col-md-6 pr-md-1">
-    <div class="form-group">
-        <label>Roadmap 6</label>
-        <input type="text" class="form-control" value="<?php echo $row['r6']; ?>" name="r6" required>
-    </div>
-</div>
-
-</div>
-                                                <br>
+                                           
                                                 <div class="row">
 
 <div class="col-md-6 pr-md-1">

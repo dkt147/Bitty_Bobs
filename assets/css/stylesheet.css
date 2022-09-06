@@ -397,6 +397,18 @@ section {
     width: 100%;
     text-align: center;
 }
+.flex_divider .doll_img img {
+    min-height: 300px;
+    max-height: 300px;
+}
+.flex_divider {
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.flex_divider .doll_img {
+    width: 20% !important;
+}
 .roadmap_heading h2 {
     font-size: 55px;
     margin-bottom: 25px;
@@ -716,6 +728,13 @@ nav ul li a, nav ul li a:visited {
 }
 
 @media only screen and (max-width: 767.9px) {
+    .flex_divider {
+        display: flex !important;
+        flex-wrap: wrap;
+    }
+    .flex_divider .doll_img {
+        width: 80% !important;
+    }
 .dollsBox {
     display: block;
 }
