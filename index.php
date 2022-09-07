@@ -131,12 +131,18 @@ if (mysqli_num_rows($res) > 0) {
 color: orange;
 margin: 2px;
 }
+#StickyDiv{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+}
     </style>
 </head>
 <body>
 
 <!-- For social icon  -->
-    <div class="container" style="margin-top: 5px;">
+    <div class="container" style="margin-top: 5px;" id="StickyDiv">
         <div class="row" >
         <a href="https://twitter.com/bittybobs" style="float: right;"  target="_blank"><i class="fa fa-brands fa-instagram" ></i></a>
         <a href="https://discord.com/invite/Sq6ERK7nw4" style="float: right"  target="_blank"><i class="fa fa-brands fa-discord" ></i></a>
