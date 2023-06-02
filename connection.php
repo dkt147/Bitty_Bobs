@@ -1,8 +1,13 @@
 <?php
+//$database="i8789553_wp1";
+//$user="i8789553_wp1";
+//$password="03172746242dA";
+//$host="localhost";
 
-                    //Connection Stablishing...
-//                    $con = mysqli_connect("localhost", "admin", "admin123", "nft") or die("Query Failed!!!");
+  $host = 'localhost';
+  $user = 'root';
+  $password = '';
+  $database = 'omer';
 
-$con = mysqli_connect("localhost", "root", "", "new_nft") or die("Query Failed!!!");
-
+$con = mysqli_connect($host, $user, $password, $database) or die("Connection Failed!!!");
 ?>

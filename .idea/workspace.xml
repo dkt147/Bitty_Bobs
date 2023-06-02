@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7eb163de-d2a4-4ce6-a80b-b53346b763b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/createdaily.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bitty_bobs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/21880c0ffe15753a53f8402e9f64e1077e071510/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/2af427b2894d1e78c5806e231aa35d00838a84e0/style.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/extend.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/fonts.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/global.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/minxi.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/632f5d1dd893d2e8764de51b8ca4120e25043113/variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/643489b018602f15119d8f44aeb7fc79468873a9/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/643489b018602f15119d8f44aeb7fc79468873a9/responsive.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/extend.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/fonts.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/global.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/minxi.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/7643c8aa2e335ff5e104bc47d8dd7f1a0693bb39/variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/f49285f1317a1cafa93ab4f5de346f92bbc40d58/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/.sass-cache/f49285f1317a1cafa93ab4f5de346f92bbc40d58/responsive.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/css/black-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/css/black-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/css/black-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/css/nucleo-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/demo/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/fonts/nucleo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/fonts/nucleo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/fonts/nucleo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/fonts/nucleo.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/12345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/anime3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/anime6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/apple-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/emilyz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/img_3115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/james.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/mike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/img/now-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/black-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/black-dashboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/black-dashboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/core/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/core/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/core/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/plugins/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/plugins/chartjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/bootstrap/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_checkboxes-radio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_example-pages.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_fixed-plugin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_rtl.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/_white-content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/cards/_card-chart.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/cards/_card-map.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/cards/_card-plain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/cards/_card-task.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/cards/_card-user.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_page-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/_wizard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/mixins/opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_backgrounds.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_floating.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_helper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/utilities/_transform.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/vendor/_plugin-animate-bootstrap-notify.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/custom/vendor/_plugin-perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/contact-left-dec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createbatch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createproduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createproduct1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createtype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/createuser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/deleteTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/deletebatch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/deletecategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/deleteproduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/deletetype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/deleteuser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/editTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_myteam.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_press.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_roadmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_team.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edit_trait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/editbatch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/editcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/editproduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/editprofile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edittype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/edituser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/error_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fb banner 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/montserrat-v12-latin-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/montserrat-v12-latin-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/montserrat-v12-latin-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/montserrat-v12-latin-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/fonts/montserrat/montserrat-v12-latin-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/images/checked.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/images/signup-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/images/unchecked.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/matt-antonioli-3akA0XDg1_g-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/navbar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/product_category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/common/extend.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/common/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/common/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/common/minxi.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/common/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/layouts/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/layouts/responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/sidebar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/socket.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/testing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/testing_batch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/testing_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/thumb444x250-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateabout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updatebatch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updatecategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateheader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updatemyteam.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updatepress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateproduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateprofile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateroadmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateteam.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updatetrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updatetype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/updateuser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/121254367_413327463397398_8995293781861469805_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/124044107_1328888014144657_2977714688016777327_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/124083157_4606964709376305_1932971228136054837_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/124868279_704588396860305_1302985796769600444_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/5C21CCC0-DD83-477B-89E9-05A3C45E7C87.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/7D22C66E-8A7B-44FB-B9BD-70867C454124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/Capture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/IMG_20220405_002102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/WhatsApp Image 2022-04-10 at 5.05.36 AM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/about-left-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/conn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/fahad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/ghazan.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/marian.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/matt-antonioli-3akA0XDg1_g-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/mk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/nft_calendar_logo_vector_optimized-z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/socket.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/ss.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/uploads/welcome post.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/vendor/jquery/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/nft.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main_menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bdr_d_L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bdr_d_R.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/circle_lg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/circle_sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/com_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/insta_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/s2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/s3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/timline_L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/timline_R.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tw_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/women.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QQc3ntxKiKrI9q9NzYXWipkcYM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/laragon/www/Omer_Panel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Omer_Panel" />
+      <recent name="C:\laragon\www\Bitty_Bobs\Admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eb163de-d2a4-4ce6-a80b-b53346b763b4" name="Changes" comment="" />
+      <created>1685289048822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685289048822</updated>
+      <workItem from="1685289052890" duration="10892000" />
+      <workItem from="1685654801361" duration="4215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
